@@ -1,0 +1,2301 @@
+########################################
+# Program: water
+# Rundate: Thu 11 Apr 2024 11:36:47
+# Commandline: water
+#    [-asequence] seq_reference/ATCOPIA94.fasta
+#    [-bsequence] results/ATCOPIA94.fasta
+# Align_format: srspair
+# Report_file: atcopia94.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE45360
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2384
+# Identity:    1355/2384 (56.8%)
+# Similarity:  1355/2384 (56.8%)
+# Gaps:         600/2384 (25.2%)
+# Score: 3391.0
+# 
+#
+#=======================================
+
+ATCOPIA94       1757 aagttacacaatgtgttttatattgaagatttgggttttgat--------   1798
+                     ||.|||||||   |||||||| |||.|         ..||||        
+AT1TE45360         1 AACTTACACA---TGTTTTAT-TTGTA---------CCTGATCTCTCCTG     37
+
+ATCOPIA94       1799 ----ttgatctctgttactc------------agttg-atggaggagaat   1831
+                         .|.||||||||..|||            ||||| ||         |
+AT1TE45360        38 CACACTCATCTCTGTGGCTCGTCTTCTGCGTGAGTTGCAT---------T     78
+
+ATCOPIA94       1832 gattgtgtaatgcagttgagtgttccattttgtgttcttcaggaccgcac   1881
+                     |.|| .|.|||   .||.|.||.|..|.||||.||..|.||||||||.||
+AT1TE45360        79 GCTT-CGCAAT---ATTCACTGATAAAGTTTGCGTGATACAGGACCGTAC    124
+
+ATCOPIA94       1882 tacgaggacgctgattggagtag---------gtaagccctctggagggt   1922
+                     |.|.|.||.|||||||||.||.|         ||||      ||||    
+AT1TE45360       125 TTCCAAGATGCTGATTGGGGTTGGGACAGAGAGTAA------TGGA----    164
+
+ATCOPIA94       1923 tggtct---attttcgaagcacggaggt------------tgctgttgcg   1957
+                       ||||   ||||.|.|||..|.||.||            ||||..||.|
+AT1TE45360       165 --GTCTATCATTTACAAAGAGCTGAAGTCGTTGCAACAAGTGCTAATGTG    212
+
+ATCOPIA94       1958 gtgaag-ggtgttccaaaac-----aatctttggagttgtggcatcaacg   2001
+                     |||||| ||      |||||     ||.||      |||||||||...||
+AT1TE45360       213 GTGAAGTGG------AAAACCAATAAAGCT------TTGTGGCATATGCG    250
+
+ATCOPIA94       2002 cttagggcatccgtctttgaaagtagt-------------cgagtcttta   2038
+                     ..||||.|||||.||||.||||||..|             |.| ||||||
+AT1TE45360       251 ACTAGGCCATCCATCTTCGAAAGTTTTATCTTCTGTTTTGCCA-TCTTTA    299
+
+ATCOPIA94       2039 ccggattttgttttttctagtcataaggatttttcgaataaggcg---tg   2085
+                     ..||||||||.|..||.||||..|   |||||      .|||.||   ||
+AT1TE45360       300 GAGGATTTTGATAGTTGTAGTTCT---GATTT------AAAGACGATTTG    340
+
+ATCOPIA94       2086 tgacgtttgtatccgcgctaagcaaactagttc---ttcttttccgataa   2132
+                     ||||||||||.|.||.||.||.||||||.||.|   |  |||||.|| ||
+AT1TE45360       341 TGACGTTTGTGTTCGAGCCAAACAAACTCGTGCAAGT--TTTTCTGA-AA    387
+
+ATCOPIA94       2133 g---caataataagactactgagatttttgagatgattcattgtgatatt   2179
+                     |   |||||  |||.|.| .|||..||||....|.|||||.|.||||.||
+AT1TE45360       388 GTTTCAATA--AAGCCGA-AGAGTGTTTTTCTTTTATTCACTATGATGTT    434
+
+ATCOPIA94       2180 tggggtccttactgtgaac---cttcttcttctggagcacgata-tttct   2225
+                     |||||.||.|||   .|||   ||||.||||..|||||.|..|| |||| 
+AT1TE45360       435 TGGGGACCATAC---AAACATGCTTCCTCTTGCGGAGCTCATTACTTTC-    480
+
+ATCOPIA94       2226 tgacaattgttgacgattactct--cgtggtacttggctttatcttatga   2273
+                     |.||.||||||||.|||.|||||  .|.|||  ||||.|..||||.|||.
+AT1TE45360       481 TAACTATTGTTGATGATCACTCTAGAGCGGT--TTGGATACATCTCATGC    528
+
+ATCOPIA94       2274 agaataaaagtga--------cactcaaacaaagcttcgtgattttattg   2315
+                     ....|||.|||||        |.|||        ||||...|.||.||||
+AT1TE45360       529 TTGCTAAGAGTGAGGTTGCCTCTCTC--------CTTCAACAGTTCATTG    570
+
+ATCOPIA94       2316 ctttgg----ttgataggcaatttggcaagaaagttcgtgtt------ct   2355
+                     |..|||    ..||    |||||   |||.|||   |..|||      .|
+AT1TE45360       571 CAATGGCGTCCCGA----CAATT---CAACAAA---CAAGTTAAAACAGT    610
+
+ATCOPIA94       2356 aagaagtgataatggtggtgaattcttgtcactcacatcttattttcttg   2405
+                     ||||||..|||||||...||||||..||...||||.|||.||||||..||
+AT1TE45360       611 AAGAAGCAATAATGGCACTGAATTTATGAGTCTCAAATCATATTTTGCTG    660
+
+ATCOPIA94       2406 catctggtattgtccatgaaacgagttgtgtgggtactcctcagcaaaac   2455
+                     .|...||.|||||.|||.|||....||||||...|||.|.|||||||||.
+AT1TE45360       661 AACGAGGAATTGTTCATCAAATCTCTTGTGTCTATACACATCAGCAAAAT    710
+
+ATCOPIA94       2456 ggtcgcgttgagcgtaaacaccgtcatctcttgaatgttgcacgagcaat   2505
+                     ||.||.||.||||||||.||..|.||..||||||||||.|||||..||.|
+AT1TE45360       711 GGACGTGTCGAGCGTAAGCATAGACACATCTTGAATGTAGCACGTTCACT    760
+
+ATCOPIA94       2506 tatgtttcaaggatctcttcctattcag-ttttggg--gagagtgtgcgt   2552
+                     ..|.|||||||.|...|||||.||| || ||.||||  ||.|||||.|  
+AT1TE45360       761 CTTATTTCAAGCAGAACTTCCCATT-AGCTTCTGGGAAGAAAGTGTTC--    807
+
+ATCOPIA94       2553 tgaatgcggcttaccttattaatcggactcct--tcgatggttcttaatg   2600
+                     |.|..||.||.|||||.||.|||||.||||||  ||.|  .||||..|||
+AT1TE45360       808 TTACAGCCGCCTACCTCATAAATCGAACTCCTACTCCA--ATTCTAGATG    855
+
+ATCOPIA94       2601 gaaagactccatacaaggttctctttggga-----aacgtccttcttatg   2645
+                     |.||.||.|||||||||.||||||     |     |||..||.|||||||
+AT1TE45360       856 GCAAAACCCCATACAAGATTCTCT-----ACTCACAACCACCGTCTTATG    900
+
+ATCOPIA94       2646 -atcatcttcgaaccattgg------ttgtttatgctatatacataatca   2688
+                      .||| |||||...|.||||      .||||| |||.|.|     ||.||
+AT1TE45360       901 CTTCA-CTTCGTGTCTTTGGCAGCCTCTGTTT-TGCAAGA-----AAACA    943
+
+ATCOPIA94       2689 agatca----tcatggagataagtttgctagtcgca--------gccgca   2726
+                         ||    ||.|...|||||.|||        ||        |.||.|
+AT1TE45360       944 ----CACTGGTCGTTTGGATAAATTT--------CAAGAGAGAGGACGAA    981
+
+ATCOPIA94       2727 aatgtgtttttgttggatatccatatgctaagaagggttggcgtgtgtat   2776
+                     ||||..|.||.|||||.|||||..|||...|.||.|||||||||.|.|||
+AT1TE45360       982 AATGCATATTCGTTGGCTATCCCCATGGACAAAAAGGTTGGCGTATTTAT   1031
+
+ATCOPIA94       2777 gatctcgagaaagaaattttttgtgtgtcacgagacgtggtctttgatga   2826
+                     |||.|.||...|.|||||||||.|||.||.||.||.|||||||||.|.||
+AT1TE45360      1032 GATATTGAATCACAAATTTTTTTTGTCTCTCGCGATGTGGTCTTTCAGGA   1081
+
+ATCOPIA94       2827 agggatttttccattt-----cataatgatttgaatccgcttccactcac   2871
+                     ||..|||||.||||||     ||.||.||.|..|                
+AT1TE45360      1082 AGATATTTTCCCATTTGCTGACAAAAAGAATAAA----------------   1115
+
+ATCOPIA94       2872 tttggataccacgtcttcac---------tcacacctttctat-tccga-   2910
+                         |||||....|||||||         |||     |||.|| |||.| 
+AT1TE45360      1116 ----GATACATTCTCTTCACCTGCTGCCGTCA-----TTCCATCTCCAAT   1156
+
+ATCOPIA94       2911 ----cgatgatgatgatga----------------caa--tggtccaacg   2938
+                         |.|| ||||||||||                |||  ||||     |
+AT1TE45360      1157 TTTGCCAT-ATGATGATGAATTCCTTGACATATACCAAATTGGT-----G   1200
+
+ATCOPIA94       2939 acat----gctccg-----tctcggttccaccggttcctgttatcccact   2979
+                     ||.|    |||.||     ||||       ||||   ||.||||      
+AT1TE45360      1201 ACGTTCCCGCTACGAATCCTCTC-------CCGG---CTATTAT------   1234
+
+ATCOPIA94       2980 tcgtgttg-caccaatatctttagcagattccggttcgaaagttgatttg   3028
+                        ||.|| ||.|.|   ||    ||    ||   ||.||    |.|.| 
+AT1TE45360      1235 ---TGATGTCAACGA---CT----CA----CC---TCCAA----GCTCT-   1262
+
+ATCOPIA94       3029 cctaatgatgatttggttct-----accagattctgcttctactactcca   3073
+                     |||    ||.||    |.||     |||.|.|.||||.||..||.||||.
+AT1TE45360      1263 CCT----ATAAT----TACTGCAACACCGGCTGCTGCATCACCTCCTCCT   1304
+
+ATCOPIA94       3074 ctac--caacggatccaaaacctactcgtgaacgac--gtcaacctgctt   3119
+                     ||.|  | .|||.|        ||  |||.||.|||  |..||..|||  
+AT1TE45360      1305 CTTCGTC-GCGGTT--------TA--CGTCAAAGACAAGAAAATGTGC--   1341
+
+ATCOPIA94       3120 accttgcc-----gattacgaaacgacgtt-------tctatgtggttca   3157
+                          |||     ||.||..||||    ||       ||.|||||..|||
+AT1TE45360      1342 -----GCCTAAAAGACTATCAAAC----TTATTCGGCTCAATGTGAGTCA   1382
+
+ATCOPIA94       3158 --tcatcgactccgtatccg-----attagt--------------gatgt   3186
+                       |||  .||||  |.||||     |||.||              .|||.
+AT1TE45360      1383 ACTCA--AACTC--TGTCCGACAACATTGGTACGTGTATCTACCCCATGG   1428
+
+ATCOPIA94       3187 cctcactgatg-ctcg-------tttttcatcagctcacaaag-------   3221
+                     || .||| ||| .|||       |.||       |||.|.|||       
+AT1TE45360      1429 CC-AACT-ATGTATCGGGTGAAATATT-------CTCTCCAAGTAATCAA   1469
+
+ATCOPIA94       3222 cttttctta-cagctattacattag-----------ctcatgaaccggca   3259
+                     |..|||||| |.||     ||||||           |||.|       ||
+AT1TE45360      1470 CACTTCTTAGCTGC-----CATTAGTATGGTTGATCCTCCT-------CA   1507
+
+ATCOPIA94       3260 -acttatgcagaagcttttgcagacccaaaatggcgtgatgccacgaaa-   3307
+                      ||||||....||||..||..|||...|.||||||||.||||      | 
+AT1TE45360      1508 GACTTATAATCAAGCCATTCGAGAGAAAGAATGGCGTAATGC------AG   1551
+
+ATCOPIA94       3308 --------gaagagattgatgctcttgtcttga--atca---cacatggg   3344
+                             ||||   |.|||||     ||||||  ||||   .||.||||
+AT1TE45360      1552 TTTTTTTTGAAG---TCGATGC-----TCTTGAAGATCAAGGAACTTGGG   1593
+
+ATCOPIA94       3345 atatt--gaagatttaccactaggaaaagtt---gcgattggttccaagt   3389
+                     |||||  .||..||  ||.|.|||   ||||   ||.|||||.||.||||
+AT1TE45360      1594 ATATTACCAAACTT--CCGCAAGG---AGTTAAAGCTATTGGATCAAAGT   1638
+
+ATCOPIA94       3390 gggtct------tcaaggttaagcatcgcta---ggacagtggaacggta   3430
+                     ||||.|      |||||..|||    |.|||   |.||.||.|||||.||
+AT1TE45360      1639 GGGTATTTCGTATCAAGTATAA----CTCTAATGGTACCGTCGAACGTTA   1684
+
+ATCOPIA94       3431 caagactcggttagttgctttaggaaaccgacagaaagagggcattgatt   3480
+                     |||..|.||..|.||.||||||||.||.|..||.||.||.||.|||||||
+AT1TE45360      1685 CAAAGCGCGTCTTGTGGCTTTAGGCAATCATCAAAAGGAAGGTATTGATT   1734
+
+ATCOPIA94       3481 ttgatgagacatttgctccggttgcgaaaatg---acttcggttcgt-at   3526
+                     |.....|||||||||||||.||||..||||||   ||       .|| |.
+AT1TE45360      1735 TCACAAAGACATTTGCTCCAGTTGTCAAAATGCAAAC-------AGTGAG   1777
+
+ATCOPIA94       3527 atttttatcg---attgtggctgctcggaattgggaggtgcaccaaatgg   3573
+                     |.||||||.|   .|||.|||.||...|.|.|||||..|.||.|||||||
+AT1TE45360      1778 ACTTTTATTGGATGTTGCGGCAGCAAAGGACTGGGAACTTCATCAAATGG   1827
+
+ATCOPIA94       3574 atgttcataatgc-gttcttacatggtgatctcgaagaagaggtctacat   3622
+                     ||||||||||.|| .||||| |||||||||.|..|||||||..||||.||
+AT1TE45360      1828 ATGTTCATAACGCTTTTCTT-CATGGTGATTTAAAAGAAGACATCTATAT   1876
+
+ATCOPIA94       3623 gaagttaccgccaggatactttgcccaacacaa-aggtaaagtgtgtcgt   3671
+                     |||...|||.||.||    |||   .||.|||| ||.|..| |.|.|.||
+AT1TE45360      1877 GAAACCACCTCCGGG----TTT---TAAAACAACAGATCCA-TCTCTTGT   1918
+
+ATCOPIA94       3672 cttc--------gaaagtcattgtatggcttgaaacaagctccacgatgt   3713
+                     .|.|        |||| ||..|.|||||.|||||||||||.||.||.||.
+AT1TE45360      1919 ATGCAAGCTCAAGAAA-TCTATCTATGGTTTGAAACAAGCGCCTCGTTGC   1967
+
+ATCOPIA94       3714 tggtttgcaaaatttg-caacagcacttaaaaattatggttttcaacaat   3762
+                     |||||.| ||||.||| |.|||.|.||....||.|.|||||||...||.|
+AT1TE45360      1968 TGGTTCG-AAAAGTTGTCTACATCTCTACTCAAGTTTGGTTTTACTCAGT   2016
+
+ATCOPIA94       3763 c----atattccgattactctttgttttca-ttcaa--ccgtgat----g   3801
+                     |    |.|    |||||.||  |.|||||| .||||  |.|.|||    .
+AT1TE45360      2017 CTAAGAAA----GATTATTC--TCTTTTCACATCAATTCGGGGATCCAAA   2060
+
+ATCOPIA94       3802 gtgtgtctttatacgttttggtctacgttgatga   3835
+                     ||   ||||.||  ||..|.||||||||.|||||
+AT1TE45360      2061 GT---TCTTCAT--GTCATTGTCTACGTCGATGA   2089
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE47215
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 289
+# Identity:     184/289 (63.7%)
+# Similarity:   184/289 (63.7%)
+# Gaps:          65/289 (22.5%)
+# Score: 566.0
+# 
+#
+#=======================================
+
+ATCOPIA94        162 tgttgaatttctgt-tttgttgttt-cattctttattgatctctgaatta    209
+                     ||.|||| ||||.| |||.||.||| ||||..|.|||..||||||||.||
+AT1TE47215         1 TGCTGAA-TTCTTTGTTTATTATTTCCATTAATCATTTTTCTCTGAAATA     49
+
+ATCOPIA94        210 ctgtatgacccagtg-tttttaattcgtagttta-----aatcgttta-t    252
+                     |..|||..||||.|| ||||||  ||.||   ||     ||||||||| |
+AT1TE47215        50 CCCTATTGCCCAATGCTTTTTA--TCATA---TAAATCTAATCGTTTACT     94
+
+ATCOPIA94        253 ttctttgcatttttatatacaattatgaaaacaaaacaaatatcatttat    302
+                     ||| |||||||||.||.||||| |.|||||||.|||||||.|.|.|.|..
+AT1TE47215        95 TTC-TTGCATTTTAATTTACAA-TCTGAAAACCAAACAAACAACTTCTTC    142
+
+ATCOPIA94        303 gctttacataaaaacgagtctcacaaatctttagagcatcagacgtggtt    352
+                     ||||||..|||.||||||||||..||||||||||||.|||   ..||||.
+AT1TE47215       143 GCTTTAGCTAAGAACGAGTCTCGGAAATCTTTAGAGTATC---TTTGGTC    189
+
+ATCOPIA94        353 cttatgaatcgac--cgcatatttattgtcttacgattaattgtatcatg    400
+                     |||.||.||||||  ||.|||||                           
+AT1TE47215       190 CTTGTGGATCGACCTCGAATATT---------------------------    212
+
+ATCOPIA94        401 ttactactccagcaattaa---ttagtatcatatctggt    436
+                        ||||        ||||   |||| || ||.||.|||
+AT1TE47215       213 ---CTAC--------TTAACGGTTAG-AT-ATTTCGGGT    238
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE47435
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 289
+# Identity:     184/289 (63.7%)
+# Similarity:   184/289 (63.7%)
+# Gaps:          65/289 (22.5%)
+# Score: 566.0
+# 
+#
+#=======================================
+
+ATCOPIA94        162 tgttgaatttctgt-tttgttgttt-cattctttattgatctctgaatta    209
+                     ||.|||| ||||.| |||.||.||| ||||..|.|||..||||||||.||
+AT1TE47435         1 TGCTGAA-TTCTTTGTTTATTATTTCCATTAATCATTTTTCTCTGAAATA     49
+
+ATCOPIA94        210 ctgtatgacccagtg-tttttaattcgtagttta-----aatcgttta-t    252
+                     |..|||..||||.|| ||||||  ||.||   ||     ||||||||| |
+AT1TE47435        50 CCCTATTGCCCAATGCTTTTTA--TCATA---TAAATCTAATCGTTTACT     94
+
+ATCOPIA94        253 ttctttgcatttttatatacaattatgaaaacaaaacaaatatcatttat    302
+                     ||| |||||||||.||.||||| |.|||||||.|||||||.|.|.|.|..
+AT1TE47435        95 TTC-TTGCATTTTAATTTACAA-TCTGAAAACCAAACAAACAACTTCTTC    142
+
+ATCOPIA94        303 gctttacataaaaacgagtctcacaaatctttagagcatcagacgtggtt    352
+                     ||||||..|||.||||||||||..||||||||||||.|||   ..||||.
+AT1TE47435       143 GCTTTAGCTAAGAACGAGTCTCGGAAATCTTTAGAGTATC---TTTGGTC    189
+
+ATCOPIA94        353 cttatgaatcgac--cgcatatttattgtcttacgattaattgtatcatg    400
+                     |||.||.||||||  ||.|||||                           
+AT1TE47435       190 CTTGTGGATCGACCTCGAATATT---------------------------    212
+
+ATCOPIA94        401 ttactactccagcaattaa---ttagtatcatatctggt    436
+                        ||||        ||||   |||| || ||.||.|||
+AT1TE47435       213 ---CTAC--------TTAACGGTTAG-AT-ATTTCGGGT    238
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE47635
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 290
+# Identity:     187/290 (64.5%)
+# Similarity:   187/290 (64.5%)
+# Gaps:          57/290 (19.7%)
+# Score: 589.5
+# 
+#
+#=======================================
+
+ATCOPIA94        156 tttaattgttgaatttc-tgttttgttgtttcattctttattgatctctg    204
+                     ||||  ||.||||||.| |||||..|..|||||||..|.|||..||||||
+AT1TE47635         1 TTTA--TGCTGAATTCCTTGTTTATTATTTTCATTAATCATTTTTCTCTG     48
+
+ATCOPIA94        205 aattactgtatgacccagtgtttttaat--tcgtagtttaaatcgttta-    251
+                     ||.|||..|||..||||.||.||||.||  || ||..|..||||||||| 
+AT1TE47635        49 AAATACCCTATTGCCCAATGCTTTTTATCATC-TAAATCTAATCGTTTAC     97
+
+ATCOPIA94        252 tttctttgcatttttatatacaattatgaaaacaaaacaaatatcattta    301
+                     |||| |||||||||.||.||||| |.|||||||.|||||||.|.|.|.|.
+AT1TE47635        98 TTTC-TTGCATTTTAATTTACAA-TCTGAAAACCAAACAAACAACTTCTT    145
+
+ATCOPIA94        302 tgctttacataaaaacgagtctcacaaatctttagagcatcagacgtggt    351
+                     .||||||..|||.|||||||||||.||||||||||||.|||   ..||||
+AT1TE47635       146 CGCTTTAGCTAAGAACGAGTCTCAGAAATCTTTAGAGTATC---TTTGGT    192
+
+ATCOPIA94        352 tcttatgaatcgac--cgcatatttattgtcttacgattaattgtatcat    399
+                     .|||.||.||||||  ||.|||||                          
+AT1TE47635       193 CCTTGTGGATCGACCTCGAATATT--------------------------    216
+
+ATCOPIA94        400 gttactactccagcaattaa---ttagtatcatatctggt    436
+                         ||||        ||||   |||| || ||.||.|||
+AT1TE47635       217 ----CTAC--------TTAACGGTTAG-AT-ATTTCGGGT    242
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE82870
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 261
+# Identity:     187/261 (71.6%)
+# Similarity:   187/261 (71.6%)
+# Gaps:          28/261 (10.7%)
+# Score: 613.5
+# 
+#
+#=======================================
+
+ATCOPIA94        568 ccatcc--acttctccgagg---tgataactatgaagaatgggctatcaa    612
+                     ||||||  .||| |..||||   .||.|||||||||||||||.|||  ||
+AT1TE82870         1 CCATCCTTGCTT-TGTGAGGATCGGACAACTATGAAGAATGGACTA--AA     47
+
+ATCOPIA94        613 cttggagactgctcttgcctcgagaaagaagtttggttttctcgatggtc    662
+                     .|||     ||  ||||||||.|..|||||.||||||||.|||||.|..|
+AT1TE82870        48 ATTG-----TG--CTTGCCTCAAAGAAGAAATTTGGTTTCCTCGACGACC     90
+
+ATCOPIA94        663 gaatttcgaagccagaagaagactcttccga-ctttgatgattggaaatc    711
+                     .|.||...||.|||||.|||.|||||.||.| ||.|||||||||.|||||
+AT1TE82870        91 AACTTGTAAAACCAGAGGAAAACTCTCCCCAGCTATGATGATTGAAAATC    140
+
+ATCOPIA94        712 ----aatcaacgccctcttggtctcatggatcaagatgacaatcgaaccg    757
+                         |||.||..|.||||||.|.||.|||||||||||.||.||.|..|||
+AT1TE82870       141 CATTAATTAATACTCTCTTGATATCTTGGATCAAGATAACTATTGGTCCG    190
+
+ATCOPIA94        758 aatctgcgctccaacatctcacacaaacct-gttgcg--cgtgacttgtg    804
+                     |..||..|||  ||.||||||||||||  | |||| |  |||||..||||
+AT1TE82870       191 AGACTTGGCT--AATATCTCACACAAA--TAGTTG-GTACGTGATGTGTG    235
+
+ATCOPIA94        805 ggaacatatca    815
+                     |||||||||||
+AT1TE82870       236 GGAACATATCA    246
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE47160
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 263
+# Identity:     187/263 (71.1%)
+# Similarity:   187/263 (71.1%)
+# Gaps:          18/263 ( 6.8%)
+# Score: 589.5
+# 
+#
+#=======================================
+
+ATCOPIA94        165 tgaatttctgttttgttgttt-cattctttattgatctctgaattactgt    213
+                     ||||||.||..|||.||.||| ||||..|.||||.|||||.||.|||..|
+AT1TE47160         1 TGAATTCCTTGTTTATTATTTCCATTAATCATTGTTCTCTAAAATACCCT     50
+
+ATCOPIA94        214 atgacccagtgtttttaat--tcgtagtttaaatcgttta-tttctttgc    260
+                     ||.|.|||.||.||||.||  || ||..|..||||||||| |||| ||||
+AT1TE47160        51 ATTAGCCAATGCTTTTTATCATC-TAAATCTAATCGTTTACTTTC-TTGC     98
+
+ATCOPIA94        261 atttttatatacaattatgaaaacaaaacaaatatcatttatgctttaca    310
+                     |||||.||.||||| |.|||||||.||.||||.|.|.|.|..||||||..
+AT1TE47160        99 ATTTTAATTTACAA-TCTGAAAACCAAGCAAACAACTTCTTCGCTTTAGC    147
+
+ATCOPIA94        311 taaaaacgagtctcacaaatctttagagcatcagacgtggttcttatgaa    360
+                     |||.||||||||||..|||||.||||||.|||   ..||||.|||.||.|
+AT1TE47160       148 TAAGAACGAGTCTCGAAAATCCTTAGAGTATC---TTTGGTCCTTGTGGA    194
+
+ATCOPIA94        361 tcgac--cgcatatt-tattgtctt-acgattaattgtatcatgttacta    406
+                     ||.||  ||.||||| ||    ||| |||.|||..|.|.||..||.|.||
+AT1TE47160       195 TCAACCTCGAATATTCTA----CTTAACGGTTAGATATTTCGGGTAATTA    240
+
+ATCOPIA94        407 ctccagcaattaa    419
+                     |||.||||||.||
+AT1TE47160       241 CTCGAGCAATCAA    253
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE47380
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 263
+# Identity:     187/263 (71.1%)
+# Similarity:   187/263 (71.1%)
+# Gaps:          18/263 ( 6.8%)
+# Score: 589.5
+# 
+#
+#=======================================
+
+ATCOPIA94        165 tgaatttctgttttgttgttt-cattctttattgatctctgaattactgt    213
+                     ||||||.||..|||.||.||| ||||..|.||||.|||||.||.|||..|
+AT1TE47380         1 TGAATTCCTTGTTTATTATTTCCATTAATCATTGTTCTCTAAAATACCCT     50
+
+ATCOPIA94        214 atgacccagtgtttttaat--tcgtagtttaaatcgttta-tttctttgc    260
+                     ||.|.|||.||.||||.||  || ||..|..||||||||| |||| ||||
+AT1TE47380        51 ATTAGCCAATGCTTTTTATCATC-TAAATCTAATCGTTTACTTTC-TTGC     98
+
+ATCOPIA94        261 atttttatatacaattatgaaaacaaaacaaatatcatttatgctttaca    310
+                     |||||.||.||||| |.|||||||.||.||||.|.|.|.|..||||||..
+AT1TE47380        99 ATTTTAATTTACAA-TCTGAAAACCAAGCAAACAACTTCTTCGCTTTAGC    147
+
+ATCOPIA94        311 taaaaacgagtctcacaaatctttagagcatcagacgtggttcttatgaa    360
+                     |||.||||||||||..|||||.||||||.|||   ..||||.|||.||.|
+AT1TE47380       148 TAAGAACGAGTCTCGAAAATCCTTAGAGTATC---TTTGGTCCTTGTGGA    194
+
+ATCOPIA94        361 tcgac--cgcatatt-tattgtctt-acgattaattgtatcatgttacta    406
+                     ||.||  ||.||||| ||    ||| |||.|||..|.|.||..||.|.||
+AT1TE47380       195 TCAACCTCGAATATTCTA----CTTAACGGTTAGATATTTCGGGTAATTA    240
+
+ATCOPIA94        407 ctccagcaattaa    419
+                     |||.||||||.||
+AT1TE47380       241 CTCGAGCAATCAA    253
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE77630
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 274
+# Identity:     163/274 (59.5%)
+# Similarity:   163/274 (59.5%)
+# Gaps:          50/274 (18.2%)
+# Score: 403.5
+# 
+#
+#=======================================
+
+ATCOPIA94       4602 aagcatatcgaacgagactgtcattttgttcgcgaaaaagttcagaatgg   4651
+                     ||..||||.|||...|||  ||||||..||||.||..|||||...||..|
+AT1TE77630         1 AAATATATTGAAATTGAC--TCATTTCATTCGTGATGAAGTTATAAACCG     48
+
+ATCOPIA94       4652 tactattgccacagttcatgtttcaacgactactcagcttgcggacattt   4701
+                     .||.|||||||..|..|||||    |||||           ||.|| ...
+AT1TE77630        49 AACAATTGCCAATGCCCATGT----ACGAC-----------CGAAC-CCG     82
+
+ATCOPIA94       4702 tcactaaggcattgg--gaagtcgggagtttga------tgtttttcggg   4743
+                     |||.||.||..||||  |.|..|   |.|||||      |.||||     
+AT1TE77630        83 TCATTAGGGTCTTGGACGCAAAC---ATTTTGAACAATTTCTTTT-----    124
+
+ATCOPIA94       4744 acaagttgggcattgaggatctccatgctccaacttgagggagggtat-t   4792
+                      |||.||.|.|.||...|||||.||..|||||||||||..||||.||| |
+AT1TE77630       125 -CAATTTTGACGTTTGTGATCTTCACTCTCCAACTTGAAAGAGGATATCT    173
+
+ATCOPIA94       4793 gagaatatctttgatattctcatatcttagtaaatattctctatacatat   4842
+                         ||||.|   |.|||..|.|||||| |...||||| |.|.|||.|||
+AT1TE77630       174 ----ATATAT---ACATTACCGTATCTT-GCTTATATT-TTTTTACTTAT    214
+
+ATCOPIA94       4843 atgttgtaactagttaagggatat   4866
+                     || ||||.|    ||||||.||||
+AT1TE77630       215 AT-TTGTTA----TTAAGGCATAT    233
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE53385
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 269
+# Identity:     195/269 (72.5%)
+# Similarity:   195/269 (72.5%)
+# Gaps:          22/269 ( 8.2%)
+# Score: 632.5
+# 
+#
+#=======================================
+
+ATCOPIA94        162 tgttgaatttctgttttgttgttt-cattctttattgatctctgaattac    210
+                     ||.||||||.||..|||.||.||| ||||..|.||||.||||||||.|||
+AT1TE53385         1 TGCTGAATTCCTTGTTTATTATTTCCATTAATCATTGTTCTCTGAAATAC     50
+
+ATCOPIA94        211 tgtatgacccagtgtttttaa---ttcgtagtttaaatcgttt-atttct    256
+                     ..|||..||||.|||.|||||   ||.|.|| ||||||||||| ||||.|
+AT1TE53385        51 CATATTGCCCAATGTCTTTAAATCTTGGAAG-TTAAATCGTTTAATTTAT     99
+
+ATCOPIA94        257 ttgcattttta-tatacaattatgaaaac-aaaacaaatatca--tttat    302
+                     ||||||||||| |.||||| |.|||.||| .|||||||.|.||  |||..
+AT1TE53385       100 TTGCATTTTTATTTTACAA-TCTGATAACTCAAACAAAAACCATCTTTCC    148
+
+ATCOPIA94        303 gctttacataaaaacgagtctcacaaatctttagagcatcagacgtggtt    352
+                     ||||||..|||.||||.|||||..||||||||||||.|||   ..||||.
+AT1TE53385       149 GCTTTAGCTAAGAACGTGTCTCGGAAATCTTTAGAGTATC---TTTGGTC    195
+
+ATCOPIA94        353 cttatgaatcgac--cgcatatt-tattgtcttacgattaattgtatcat    399
+                     |||.||.||||||  ||.||||| ||    ||| ||.|||..|.|.||..
+AT1TE53385       196 CTTGTGGATCGACCTCGAATATTCTA----CTT-CGGTTAGATATTTCGG    240
+
+ATCOPIA94        400 gttactactccagcaatta    418
+                     ||.|.|||||.||||||.|
+AT1TE53385       241 GTAATTACTCGAGCAATCA    259
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE46360
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 283
+# Identity:     200/283 (70.7%)
+# Similarity:   200/283 (70.7%)
+# Gaps:          19/283 ( 6.7%)
+# Score: 630.0
+# 
+#
+#=======================================
+
+ATCOPIA94        156 tttaattgttgaattt-ctgttttgttgtttcattctttattgatctctg    204
+                     ||||  ||||.||||| ||||.|..|..|||||||..|.|||||||||..
+AT1TE46360         1 TTTA--TGTTAAATTTCCTGTCTAATATTTTCATTAATCATTGATCTCCA     48
+
+ATCOPIA94        205 aattactgtatgacccagtg-tttttaattcgt---agtttaaatcgttt    250
+                     ||.||...||||.||||.|| ||||||  ||.|   ||||| ||||||||
+AT1TE46360        49 AAATATCCTATGGCCCAATGCTTTTTA--TCATATAAGTTT-AATCGTTT     95
+
+ATCOPIA94        251 atttctttgcatttttatatacaattatgaaaacaaaacaaata---tca    297
+                     ||||.|||..|.|||.||.|||||||.||||||.||||||||.|   || 
+AT1TE46360        96 ATTTTTTTATAATTTAATCTACAATTCTGAAAATAAAACAAACAACCTC-    144
+
+ATCOPIA94        298 tttatgctttacataaaaacgagtctcacaaatctttagagcatcagacg    347
+                     |||| |.||||..|||.|||||||||...|||||.||||||.|||   ..
+AT1TE46360       145 TTTA-GTTTTAGTTAAGAACGAGTCTTGGAAATCCTTAGAGTATC---TT    190
+
+ATCOPIA94        348 tggttcttatgaatcgaccgcatatttattgtcttacgattaattgtatc    397
+                     ||.|.|||.||.|||||||.|..||.||.|..||..||.||||.|.|||.
+AT1TE46360       191 TGATCCTTGTGGATCGACCTCGAATATACTACCTAGCGGTTAAGTATATT    240
+
+ATCOPIA94        398 atgttactactccagcaattaa-ttagtatcat    429
+                     ..||.|.|||||.||||||.|| ||.|..||||
+AT1TE46360       241 GAGTAATTACTCGAGCAATCAAGTTGGCGTCAT    273
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE34620
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 269
+# Identity:     155/269 (57.6%)
+# Similarity:   155/269 (57.6%)
+# Gaps:          70/269 (26.0%)
+# Score: 374.0
+# 
+#
+#=======================================
+
+ATCOPIA94       4579 atccagttttctacgaa--cgtacgaagcatatcgaacga--gactgtca   4624
+                     |||...||||..||.||  |.||||||.||.|||  |.||  ||.|||.|
+AT1TE34620         1 ATCTGATTTTACACAAAAGCCTACGAAACACATC--AAGATCGAATGTTA     48
+
+ATCOPIA94       4625 ttttgttcgcgaaaaagttcagaat----ggtactattg-------ccac   4663
+                     ||||||..|.||..||.|||  |||    ||||  ||.|       ||||
+AT1TE34620        49 TTTTGTATGTGATCAAATTC--AATCAGAGGTA--ATAGCAACCAACCAC     94
+
+ATCOPIA94       4664 agttcatgtttcaacgactactcagcttgcggacattttc-------act   4706
+                     |..|||    |||  ||||.|||    |.||     ||||       .||
+AT1TE34620        95 ATCTCA----TCA--GACTCCTC----TACG-----TTTCTTTGAATTCT    129
+
+ATCOPIA94       4707 aaggcattgggaagtcgggagtttgatgtttttc-gggacaagttgggca   4755
+                     |||  |||.|.||     |||||..|| ||.||| ..||.|.||.|.|||
+AT1TE34620       130 AAG--ATTAGAAA-----GAGTTCAAT-TTCTTCTTTGAGATGTGGAGCA    171
+
+ATCOPIA94       4756 ttgaggatctccatgctccaacttgagggagggtattgagaatatctttg   4805
+                     ||...||| ||||||||..|||||||   |.||          ||.||||
+AT1TE34620       172 TTCGTGAT-TCCATGCTTTAACTTGA---ACGG----------ATATTTG    207
+
+ATCOPIA94       4806 a----tattctcatatctt   4820
+                     |    ||.|||||||.|||
+AT1TE34620       208 AATTCTAATCTCATAACTT    226
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE69560
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 241
+# Identity:     163/241 (67.6%)
+# Similarity:   163/241 (67.6%)
+# Gaps:          33/241 (13.7%)
+# Score: 504.5
+# 
+#
+#=======================================
+
+ATCOPIA94        192 ttattgatctctgaattac-----tgtatgacccagtgtttttaattcgt    236
+                     |.||||.|||.||||.|||     ||||     ||.|||.|||||||..|
+AT1TE69560         1 TCATTGTTCTTTGAAATACCCTAGTGTA-----CAATGTCTTTAATTTAT     45
+
+ATCOPIA94        237 -agtttaaatcgtttattt-ctttgcatttttatatacaattatg-aaaa    283
+                      ||||| |||.|||.|||| |||.|..|||||||.||.||.|.|| ||||
+AT1TE69560        46 AAGTTT-AATTGTTAATTTACTTGGGTTTTTTATTTAAAAATCTGAAAAA     94
+
+ATCOPIA94        284 caaaacaaatatcatttatgcttt-acataaaaacgagtctcacaaatct    332
+                     |.|||||||.|.|.|||..||||| |||| |||||||||.|||.||||| 
+AT1TE69560        95 CCAAACAAACAACTTTTCCGCTTTAACAT-AAAACGAGTATCAAAAATC-    142
+
+ATCOPIA94        333 ttagagcatcagacgtggttcttatgaatcgaccgcatatt-----tatt    377
+                        |||.||   |..|.||..||.||.||||     |||||     ||||
+AT1TE69560       143 ---GAGTAT---ATTTTGTCTTTGTGGATCG-----ATATTCTATATATT    181
+
+ATCOPIA94        378 gtcttacgattaattgtatcatgttactactccagcaatta    418
+                     .|.||.||.||||.|.||||..||.|.|||||.||||||.|
+AT1TE69560       182 ATGTTGCGGTTAAATATATCGGGTAATTACTCGAGCAATCA    222
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE64390
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4791
+# Identity:    4790/4791 (100.0%)
+# Similarity:  4790/4791 (100.0%)
+# Gaps:           0/4791 ( 0.0%)
+# Score: 23946.0
+# 
+#
+#=======================================
+
+ATCOPIA94        148 ttatggtgtttaattgttgaatttctgttttgttgtttcattctttattg    197
+                     |.||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390         1 TCATGGTGTTTAATTGTTGAATTTCTGTTTTGTTGTTTCATTCTTTATTG     50
+
+ATCOPIA94        198 atctctgaattactgtatgacccagtgtttttaattcgtagtttaaatcg    247
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390        51 ATCTCTGAATTACTGTATGACCCAGTGTTTTTAATTCGTAGTTTAAATCG    100
+
+ATCOPIA94        248 tttatttctttgcatttttatatacaattatgaaaacaaaacaaatatca    297
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       101 TTTATTTCTTTGCATTTTTATATACAATTATGAAAACAAAACAAATATCA    150
+
+ATCOPIA94        298 tttatgctttacataaaaacgagtctcacaaatctttagagcatcagacg    347
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       151 TTTATGCTTTACATAAAAACGAGTCTCACAAATCTTTAGAGCATCAGACG    200
+
+ATCOPIA94        348 tggttcttatgaatcgaccgcatatttattgtcttacgattaattgtatc    397
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       201 TGGTTCTTATGAATCGACCGCATATTTATTGTCTTACGATTAATTGTATC    250
+
+ATCOPIA94        398 atgttactactccagcaattaattagtatcatatctggtttcagaacaag    447
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       251 ATGTTACTACTCCAGCAATTAATTAGTATCATATCTGGTTTCAGAACAAG    300
+
+ATCOPIA94        448 aaaacataattttaaaactttaatctgaattccatccccattaaacgcac    497
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       301 AAAACATAATTTTAAAACTTTAATCTGAATTCCATCCCCATTAAACGCAC    350
+
+ATCOPIA94        498 attactcacttgaagatattgtgtcatattattattcaaaagcaagtgat    547
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       351 ATTACTCACTTGAAGATATTGTGTCATATTATTATTCAAAAGCAAGTGAT    400
+
+ATCOPIA94        548 catccgggacatgtcatctcccatccacttctccgaggtgataactatga    597
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       401 CATCCGGGACATGTCATCTCCCATCCACTTCTCCGAGGTGATAACTATGA    450
+
+ATCOPIA94        598 agaatgggctatcaacttggagactgctcttgcctcgagaaagaagtttg    647
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       451 AGAATGGGCTATCAACTTGGAGACTGCTCTTGCCTCGAGAAAGAAGTTTG    500
+
+ATCOPIA94        648 gttttctcgatggtcgaatttcgaagccagaagaagactcttccgacttt    697
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       501 GTTTTCTCGATGGTCGAATTTCGAAGCCAGAAGAAGACTCTTCCGACTTT    550
+
+ATCOPIA94        698 gatgattggaaatcaatcaacgccctcttggtctcatggatcaagatgac    747
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       551 GATGATTGGAAATCAATCAACGCCCTCTTGGTCTCATGGATCAAGATGAC    600
+
+ATCOPIA94        748 aatcgaaccgaatctgcgctccaacatctcacacaaacctgttgcgcgtg    797
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       601 AATCGAACCGAATCTGCGCTCCAACATCTCACACAAACCTGTTGCGCGTG    650
+
+ATCOPIA94        798 acttgtgggaacatatcaagaaacatttttgcgtttcgaacggtcctcgt    847
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       651 ACTTGTGGGAACATATCAAGAAACATTTTTGCGTTTCGAACGGTCCTCGT    700
+
+ATCOPIA94        848 gtacaacaactacgcaaggagttatcgaattgtcgtcaggatggtctctc    897
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       701 GTACAACAACTACGCAAGGAGTTATCGAATTGTCGTCAGGATGGTCTCTC    750
+
+ATCOPIA94        898 gattgagacatactacggcaaactaacaaagttgtgggacaacatggatg    947
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       751 GATTGAGACATACTACGGCAAACTAACAAAGTTGTGGGACAACATGGATG    800
+
+ATCOPIA94        948 cttgtcgaccacgtattgtgtgtacttgtggaaagtgcatatgtgattgt    997
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       801 CTTGTCGACCACGTATTGTGTGTACTTGTGGAAAGTGCATATGTGATTGT    850
+
+ATCOPIA94        998 cttgccgtgttggagacgctaagggaacacgacaaggttcatgattttct   1047
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       851 CTTGCCGTGTTGGAGACGCTAAGGGAACACGACAAGGTTCATGATTTTCT    900
+
+ATCOPIA94       1048 catgggacttgatgaatcagcctatggcactgtccgctcgtctcttttga   1097
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       901 CATGGGACTTGATGAATCAGCCTATGGCACTGTCCGCTCGTCTCTTTTGA    950
+
+ATCOPIA94       1098 ttcaagaacctttaccaagtcttgagtatgtataccttaaggtgactcaa   1147
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390       951 TTCAAGAACCTTTACCAAGTCTTGAGTATGTATACCTTAAGGTGACTCAA   1000
+
+ATCOPIA94       1148 gatgaggattctcgctctcacaagcaagtcagtgactctcgacccgacgg   1197
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1001 GATGAGGATTCTCGCTCTCACAAGCAAGTCAGTGACTCTCGACCCGACGG   1050
+
+ATCOPIA94       1198 gatggtgtttgcagcacaacacgcgtctcgtgtacgacccggggaaagat   1247
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1051 GATGGTGTTTGCAGCACAACACGCGTCTCGTGTACGACCCGGGGAAAGAT   1100
+
+ATCOPIA94       1248 cttcttcgacaaccgtgtgtaccaactgtgggagaactggtcacatggca   1297
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1101 CTTCTTCGACAACCGTGTGTACCAACTGTGGGAGAACTGGTCACATGGCA   1150
+
+ATCOPIA94       1298 gaaagctgttttcagattcttgggtttccagaatggtggggagataggcc   1347
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1151 GAAAGCTGTTTTCAGATTCTTGGGTTTCCAGAATGGTGGGGAGATAGGCC   1200
+
+ATCOPIA94       1348 tcgtaatcaaaacggacgtggttgtggtactaaatccaatggatctggac   1397
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1201 TCGTAATCAAAACGGACGTGGTTGTGGTACTAAATCCAATGGATCTGGAC   1250
+
+ATCOPIA94       1398 gtggcggtggagttgttgcacgagataatgttgctcagggagcatcgtca   1447
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1251 GTGGCGGTGGAGTTGTTGCACGAGATAATGTTGCTCAGGGAGCATCGTCA   1300
+
+ATCOPIA94       1448 tcagaagttgttcatgccaatgttgctatcacagatgccgatcgtgcggc   1497
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1301 TCAGAAGTTGTTCATGCCAATGTTGCTATCACAGATGCCGATCGTGCGGC   1350
+
+ATCOPIA94       1498 tgtgctcaatctcaccgacgaacagtggataagtgtcaaacgggccataa   1547
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1351 TGTGCTCAATCTCACCGACGAACAGTGGATAAGTGTCAAACGGGCCATAA   1400
+
+ATCOPIA94       1548 atgcaactaaaggaaactccgatgagcaactctctggtaagtcttcctct   1597
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1401 ATGCAACTAAAGGAAACTCCGATGAGCAACTCTCTGGTAAGTCTTCCTCT   1450
+
+ATCOPIA94       1598 acttcgtggattttggatacaggtgcgacaaatcatttgacatgccgccg   1647
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1451 ACTTCGTGGATTTTGGATACAGGTGCGACAAATCATTTGACATGCCGCCG   1500
+
+ATCOPIA94       1648 tgatatacttgaaaatgttagaaaatcgacttcgactccaattattcttg   1697
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1501 TGATATACTTGAAAATGTTAGAAAATCGACTTCGACTCCAATTATTCTTG   1550
+
+ATCOPIA94       1698 ctgataatcggattgtgatgggtgacatggttggttctgtgacattgaat   1747
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1551 CTGATAATCGGATTGTGATGGGTGACATGGTTGGTTCTGTGACATTGAAT   1600
+
+ATCOPIA94       1748 aaacacttgaagttacacaatgtgttttatattgaagatttgggttttga   1797
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1601 AAACACTTGAAGTTACACAATGTGTTTTATATTGAAGATTTGGGTTTTGA   1650
+
+ATCOPIA94       1798 tttgatctctgttactcagttgatggaggagaatgattgtgtaatgcagt   1847
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1651 TTTGATCTCTGTTACTCAGTTGATGGAGGAGAATGATTGTGTAATGCAGT   1700
+
+ATCOPIA94       1848 tgagtgttccattttgtgttcttcaggaccgcactacgaggacgctgatt   1897
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1701 TGAGTGTTCCATTTTGTGTTCTTCAGGACCGCACTACGAGGACGCTGATT   1750
+
+ATCOPIA94       1898 ggagtaggtaagccctctggagggttggtctattttcgaagcacggaggt   1947
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1751 GGAGTAGGTAAGCCCTCTGGAGGGTTGGTCTATTTTCGAAGCACGGAGGT   1800
+
+ATCOPIA94       1948 tgctgttgcggtgaagggtgttccaaaacaatctttggagttgtggcatc   1997
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1801 TGCTGTTGCGGTGAAGGGTGTTCCAAAACAATCTTTGGAGTTGTGGCATC   1850
+
+ATCOPIA94       1998 aacgcttagggcatccgtctttgaaagtagtcgagtctttaccggatttt   2047
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1851 AACGCTTAGGGCATCCGTCTTTGAAAGTAGTCGAGTCTTTACCGGATTTT   1900
+
+ATCOPIA94       2048 gttttttctagtcataaggatttttcgaataaggcgtgtgacgtttgtat   2097
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1901 GTTTTTTCTAGTCATAAGGATTTTTCGAATAAGGCGTGTGACGTTTGTAT   1950
+
+ATCOPIA94       2098 ccgcgctaagcaaactagttcttcttttccgataagcaataataagacta   2147
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      1951 CCGCGCTAAGCAAACTAGTTCTTCTTTTCCGATAAGCAATAATAAGACTA   2000
+
+ATCOPIA94       2148 ctgagatttttgagatgattcattgtgatatttggggtccttactgtgaa   2197
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2001 CTGAGATTTTTGAGATGATTCATTGTGATATTTGGGGTCCTTACTGTGAA   2050
+
+ATCOPIA94       2198 ccttcttcttctggagcacgatatttcttgacaattgttgacgattactc   2247
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2051 CCTTCTTCTTCTGGAGCACGATATTTCTTGACAATTGTTGACGATTACTC   2100
+
+ATCOPIA94       2248 tcgtggtacttggctttatcttatgaagaataaaagtgacactcaaacaa   2297
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2101 TCGTGGTACTTGGCTTTATCTTATGAAGAATAAAAGTGACACTCAAACAA   2150
+
+ATCOPIA94       2298 agcttcgtgattttattgctttggttgataggcaatttggcaagaaagtt   2347
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2151 AGCTTCGTGATTTTATTGCTTTGGTTGATAGGCAATTTGGCAAGAAAGTT   2200
+
+ATCOPIA94       2348 cgtgttctaagaagtgataatggtggtgaattcttgtcactcacatctta   2397
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2201 CGTGTTCTAAGAAGTGATAATGGTGGTGAATTCTTGTCACTCACATCTTA   2250
+
+ATCOPIA94       2398 ttttcttgcatctggtattgtccatgaaacgagttgtgtgggtactcctc   2447
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2251 TTTTCTTGCATCTGGTATTGTCCATGAAACGAGTTGTGTGGGTACTCCTC   2300
+
+ATCOPIA94       2448 agcaaaacggtcgcgttgagcgtaaacaccgtcatctcttgaatgttgca   2497
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2301 AGCAAAACGGTCGCGTTGAGCGTAAACACCGTCATCTCTTGAATGTTGCA   2350
+
+ATCOPIA94       2498 cgagcaattatgtttcaaggatctcttcctattcagttttggggagagtg   2547
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2351 CGAGCAATTATGTTTCAAGGATCTCTTCCTATTCAGTTTTGGGGAGAGTG   2400
+
+ATCOPIA94       2548 tgcgttgaatgcggcttaccttattaatcggactccttcgatggttctta   2597
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2401 TGCGTTGAATGCGGCTTACCTTATTAATCGGACTCCTTCGATGGTTCTTA   2450
+
+ATCOPIA94       2598 atggaaagactccatacaaggttctctttgggaaacgtccttcttatgat   2647
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2451 ATGGAAAGACTCCATACAAGGTTCTCTTTGGGAAACGTCCTTCTTATGAT   2500
+
+ATCOPIA94       2648 catcttcgaaccattggttgtttatgctatatacataatcaagatcatca   2697
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2501 CATCTTCGAACCATTGGTTGTTTATGCTATATACATAATCAAGATCATCA   2550
+
+ATCOPIA94       2698 tggagataagtttgctagtcgcagccgcaaatgtgtttttgttggatatc   2747
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2551 TGGAGATAAGTTTGCTAGTCGCAGCCGCAAATGTGTTTTTGTTGGATATC   2600
+
+ATCOPIA94       2748 catatgctaagaagggttggcgtgtgtatgatctcgagaaagaaattttt   2797
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2601 CATATGCTAAGAAGGGTTGGCGTGTGTATGATCTCGAGAAAGAAATTTTT   2650
+
+ATCOPIA94       2798 tgtgtgtcacgagacgtggtctttgatgaagggatttttccatttcataa   2847
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2651 TGTGTGTCACGAGACGTGGTCTTTGATGAAGGGATTTTTCCATTTCATAA   2700
+
+ATCOPIA94       2848 tgatttgaatccgcttccactcactttggataccacgtcttcactcacac   2897
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2701 TGATTTGAATCCGCTTCCACTCACTTTGGATACCACGTCTTCACTCACAC   2750
+
+ATCOPIA94       2898 ctttctattccgacgatgatgatgatgacaatggtccaacgacatgctcc   2947
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2751 CTTTCTATTCCGACGATGATGATGATGACAATGGTCCAACGACATGCTCC   2800
+
+ATCOPIA94       2948 gtctcggttccaccggttcctgttatcccacttcgtgttgcaccaatatc   2997
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2801 GTCTCGGTTCCACCGGTTCCTGTTATCCCACTTCGTGTTGCACCAATATC   2850
+
+ATCOPIA94       2998 tttagcagattccggttcgaaagttgatttgcctaatgatgatttggttc   3047
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2851 TTTAGCAGATTCCGGTTCGAAAGTTGATTTGCCTAATGATGATTTGGTTC   2900
+
+ATCOPIA94       3048 taccagattctgcttctactactccactaccaacggatccaaaacctact   3097
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2901 TACCAGATTCTGCTTCTACTACTCCACTACCAACGGATCCAAAACCTACT   2950
+
+ATCOPIA94       3098 cgtgaacgacgtcaacctgcttaccttgccgattacgaaacgacgtttct   3147
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      2951 CGTGAACGACGTCAACCTGCTTACCTTGCCGATTACGAAACGACGTTTCT   3000
+
+ATCOPIA94       3148 atgtggttcatcatcgactccgtatccgattagtgatgtcctcactgatg   3197
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3001 ATGTGGTTCATCATCGACTCCGTATCCGATTAGTGATGTCCTCACTGATG   3050
+
+ATCOPIA94       3198 ctcgtttttcatcagctcacaaagcttttcttacagctattacattagct   3247
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3051 CTCGTTTTTCATCAGCTCACAAAGCTTTTCTTACAGCTATTACATTAGCT   3100
+
+ATCOPIA94       3248 catgaaccggcaacttatgcagaagcttttgcagacccaaaatggcgtga   3297
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3101 CATGAACCGGCAACTTATGCAGAAGCTTTTGCAGACCCAAAATGGCGTGA   3150
+
+ATCOPIA94       3298 tgccacgaaagaagagattgatgctcttgtcttgaatcacacatgggata   3347
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3151 TGCCACGAAAGAAGAGATTGATGCTCTTGTCTTGAATCACACATGGGATA   3200
+
+ATCOPIA94       3348 ttgaagatttaccactaggaaaagttgcgattggttccaagtgggtcttc   3397
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3201 TTGAAGATTTACCACTAGGAAAAGTTGCGATTGGTTCCAAGTGGGTCTTC   3250
+
+ATCOPIA94       3398 aaggttaagcatcgctaggacagtggaacggtacaagactcggttagttg   3447
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3251 AAGGTTAAGCATCGCTAGGACAGTGGAACGGTACAAGACTCGGTTAGTTG   3300
+
+ATCOPIA94       3448 ctttaggaaaccgacagaaagagggcattgattttgatgagacatttgct   3497
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3301 CTTTAGGAAACCGACAGAAAGAGGGCATTGATTTTGATGAGACATTTGCT   3350
+
+ATCOPIA94       3498 ccggttgcgaaaatgacttcggttcgtatatttttatcgattgtggctgc   3547
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3351 CCGGTTGCGAAAATGACTTCGGTTCGTATATTTTTATCGATTGTGGCTGC   3400
+
+ATCOPIA94       3548 tcggaattgggaggtgcaccaaatggatgttcataatgcgttcttacatg   3597
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3401 TCGGAATTGGGAGGTGCACCAAATGGATGTTCATAATGCGTTCTTACATG   3450
+
+ATCOPIA94       3598 gtgatctcgaagaagaggtctacatgaagttaccgccaggatactttgcc   3647
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3451 GTGATCTCGAAGAAGAGGTCTACATGAAGTTACCGCCAGGATACTTTGCC   3500
+
+ATCOPIA94       3648 caacacaaaggtaaagtgtgtcgtcttcgaaagtcattgtatggcttgaa   3697
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3501 CAACACAAAGGTAAAGTGTGTCGTCTTCGAAAGTCATTGTATGGCTTGAA   3550
+
+ATCOPIA94       3698 acaagctccacgatgttggtttgcaaaatttgcaacagcacttaaaaatt   3747
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3551 ACAAGCTCCACGATGTTGGTTTGCAAAATTTGCAACAGCACTTAAAAATT   3600
+
+ATCOPIA94       3748 atggttttcaacaatcatattccgattactctttgttttcattcaaccgt   3797
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3601 ATGGTTTTCAACAATCATATTCCGATTACTCTTTGTTTTCATTCAACCGT   3650
+
+ATCOPIA94       3798 gatggtgtgtctttatacgttttggtctacgttgatgacttgattgttac   3847
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3651 GATGGTGTGTCTTTATACGTTTTGGTCTACGTTGATGACTTGATTGTTAC   3700
+
+ATCOPIA94       3848 tggaaactccactacggcgataagtgagtttaagcagtatcttgattcat   3897
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3701 TGGAAACTCCACTACGGCGATAAGTGAGTTTAAGCAGTATCTTGATTCAT   3750
+
+ATCOPIA94       3898 gctttcacatgaaggatcttggtcttttgaagtatttcttgggtatcgag   3947
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3751 GCTTTCACATGAAGGATCTTGGTCTTTTGAAGTATTTCTTGGGTATCGAG   3800
+
+ATCOPIA94       3948 gttgctagaagccccgatggtatttacttatgtcaacggaagtatgttct   3997
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3801 GTTGCTAGAAGCCCCGATGGTATTTACTTATGTCAACGGAAGTATGTTCT   3850
+
+ATCOPIA94       3998 tgatattcttcaagacacgtttcttcttggagcacaaccatcaggttttc   4047
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3851 TGATATTCTTCAAGACACGTTTCTTCTTGGAGCACAACCATCAGGTTTTC   3900
+
+ATCOPIA94       4048 ccattgagcaaaaccatactcttgcttctgctaccggttcgtttctaaca   4097
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3901 CCATTGAGCAAAACCATACTCTTGCTTCTGCTACCGGTTCGTTTCTAACA   3950
+
+ATCOPIA94       4098 gatctagcatcttatcgtcgtcttgttggtcggctcgtttatcttaatgt   4147
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      3951 GATCTAGCATCTTATCGTCGTCTTGTTGGTCGGCTCGTTTATCTTAATGT   4000
+
+ATCOPIA94       4148 cactagacaggaccttgcatactcggttcgtgttctcactcaattcatgc   4197
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4001 CACTAGACAGGACCTTGCATACTCGGTTCGTGTTCTCACTCAATTCATGC   4050
+
+ATCOPIA94       4198 agaaaccacgtgaagaacattggacagcggcactacgtgttgttcgttat   4247
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4051 AGAAACCACGTGAAGAACATTGGACAGCGGCACTACGTGTTGTTCGTTAT   4100
+
+ATCOPIA94       4248 ctcaaaggaactccgggacaaggtgttctcttacgagctaattctgatct   4297
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4101 CTCAAAGGAACTCCGGGACAAGGTGTTCTCTTACGAGCTAATTCTGATCT   4150
+
+ATCOPIA94       4298 tcacatatacgggtggtgtgactctgatttctctggctgccctcgttcgc   4347
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4151 TCACATATACGGGTGGTGTGACTCTGATTTCTCTGGCTGCCCTCGTTCGC   4200
+
+ATCOPIA94       4348 gtcgctctttaacagggtggtttgttcagctcggtcaatctccagtatta   4397
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4201 GTCGCTCTTTAACAGGGTGGTTTGTTCAGCTCGGTCAATCTCCAGTATTA   4250
+
+ATCOPIA94       4398 tggcgaactaagaaacaaaaggttgttagtatgtcttcagctgaggccga   4447
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4251 TGGCGAACTAAGAAACAAAAGGTTGTTAGTATGTCTTCAGCTGAGGCCGA   4300
+
+ATCOPIA94       4448 atatcgtgctatgtcacttactgcacgagagttggtttggttgcaagctt   4497
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4301 ATATCGTGCTATGTCACTTACTGCACGAGAGTTGGTTTGGTTGCAAGCTT   4350
+
+ATCOPIA94       4498 tgcttgaagatcttgctgtgtttctctctcgcccaatgacgttgtattgt   4547
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4351 TGCTTGAAGATCTTGCTGTGTTTCTCTCTCGCCCAATGACGTTGTATTGT   4400
+
+ATCOPIA94       4548 gatagtacagcagctatccatattgcggccaatccagttttctacgaacg   4597
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4401 GATAGTACAGCAGCTATCCATATTGCGGCCAATCCAGTTTTCTACGAACG   4450
+
+ATCOPIA94       4598 tacgaagcatatcgaacgagactgtcattttgttcgcgaaaaagttcaga   4647
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4451 TACGAAGCATATCGAACGAGACTGTCATTTTGTTCGCGAAAAAGTTCAGA   4500
+
+ATCOPIA94       4648 atggtactattgccacagttcatgtttcaacgactactcagcttgcggac   4697
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4501 ATGGTACTATTGCCACAGTTCATGTTTCAACGACTACTCAGCTTGCGGAC   4550
+
+ATCOPIA94       4698 attttcactaaggcattgggaagtcgggagtttgatgtttttcgggacaa   4747
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4551 ATTTTCACTAAGGCATTGGGAAGTCGGGAGTTTGATGTTTTTCGGGACAA   4600
+
+ATCOPIA94       4748 gttgggcattgaggatctccatgctccaacttgagggagggtattgagaa   4797
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4601 GTTGGGCATTGAGGATCTCCATGCTCCAACTTGAGGGAGGGTATTGAGAA   4650
+
+ATCOPIA94       4798 tatctttgatattctcatatcttagtaaatattctctatacatatatgtt   4847
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4651 TATCTTTGATATTCTCATATCTTAGTAAATATTCTCTATACATATATGTT   4700
+
+ATCOPIA94       4848 gtaactagttaagggatattcgattaggttttatgcacatactctcttgt   4897
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4701 GTAACTAGTTAAGGGATATTCGATTAGGTTTTATGCACATACTCTCTTGT   4750
+
+ATCOPIA94       4898 ataaatagaaggctcagcctccgttaataaacaacacatta   4938
+                     |||||||||||||||||||||||||||||||||||||||||
+AT1TE64390      4751 ATAAATAGAAGGCTCAGCCTCCGTTAATAAACAACACATTA   4791
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE42355
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 902
+# Identity:     551/902 (61.1%)
+# Similarity:   551/902 (61.1%)
+# Gaps:         168/902 (18.6%)
+# Score: 1416.5
+# 
+#
+#=======================================
+
+ATCOPIA94       4032 caaccatcaggttttcccattgagcaaaaccatactcttgcttct----g   4077
+                     ||.||..|.||.|.|||.||.||.|.|||.||| |.|||...|||    .
+AT1TE42355         1 CATCCGGCTGGGTCTCCAATGGATCGAAATCAT-CGCTTAAGTCTCTCCA     49
+
+ATCOPIA94       4078 ctaccggttc-gtttctaacagatctagcatcttatcgtcgtctt-gttg   4125
+                     ||||    || ||||.|..|.||.|..|.|..|||.||||| ||| ||||
+AT1TE42355        50 CTAC----TCTGTTTTTTCCCGAGCCTGAACGTTACCGTCG-CTTAGTTG     94
+
+ATCOPIA94       4126 gtcggctcgtttatcttaatgtcactagacaggaccttgcatactcggtt   4175
+                     ||||.||..||||||||..||.||||.|||..||.|||.||||       
+AT1TE42355        95 GTCGTCTAATTTATCTTGCTGCCACTCGACCTGATCTTACATA-------    137
+
+ATCOPIA94       4176 cgt-----gttctca-----ctcaattcatgcagaaaccacgtgaagaac   4215
+                       |     ||.|.||     ||||||..|||.|...|||.||||||||.|
+AT1TE42355       138 --TATGCAGTACACATTTTTCTCAATATATGAATTCACCTCGTGAAGATC    185
+
+ATCOPIA94       4216 attggacagcggcactacgtgttgttcgttatctcaaaggaactccggga   4265
+                     |||||||.||.||.|.....||.|||||.|||.|.||||||||||..||.
+AT1TE42355       186 ATTGGACTGCTGCTCGCAAAGTAGTTCGATATTTGAAAGGAACTCTTGGT    235
+
+ATCOPIA94       4266 caaggtgttctcttacga-gctaattctgatcttcacatat-ac-gggtg   4312
+                     |||||..|.|||.| ||| ||.|..|||..||||  ||||| || ||.||
+AT1TE42355       236 CAAGGAATACTCCT-CGATGCGACATCTCTTCTT--CATATCACTGGTTG    282
+
+ATCOPIA94       4313 gtgtgactctgatt-----tctctggctgccctcgttcgcgtcgctcttt   4357
+                     ||||||.|||||.|     |||     ||.||||...|..|.||.|||.|
+AT1TE42355       283 GTGTGATTCTGACTATGCGTCT-----TGTCCTCTAACAAGACGGTCTCT    327
+
+ATCOPIA94       4358 aacagggtggtttgttcagctcggtcaatctccagtattatggcgaacta   4407
+                     .||.||..||.|.||||||||.||     |.||  |.|.||||..|||.|
+AT1TE42355       328 TACCGGTCGGATGGTTCAGCTTGG-----CACC--TTTCATGGAAAACAA    370
+
+ATCOPIA94       4408 agaaaca--aaaggttgttagtatgtc----ttcagctgaggccgaatat   4451
+                     |.||.||  |.|.|      ||.|.||    |||.|||||.||.||||||
+AT1TE42355       371 ACAAGCAGGACACG------GTCTCTCGATATTCTGCTGAAGCTGAATAT    414
+
+ATCOPIA94       4452 cgtgctatg---tcacttactgcacgagagt----tggtttggttgcaag   4494
+                     ||.||.|||   .|.|||||| ||.|| |.|    ||||||.|||     
+AT1TE42355       415 CGGGCCATGGCTGCGCTTACT-CAAGA-ACTTCTATGGTTTCGTT-----    457
+
+ATCOPIA94       4495 ctttgcttgaagatcttgctgtgtttctctct---cgcccaatgacgttg   4541
+                     ||.|.||..|.||..|||.|.||..||   ||   .|.||.|||||    
+AT1TE42355       458 CTATTCTCAACGAGTTTGATCTGCCTC---CTGAAGGACCTATGAC----    500
+
+ATCOPIA94       4542 tat----tgtgata-----gt--------acagcagctatccatattgcg   4574
+                     |||    |||||||     ||        |||.|||||            
+AT1TE42355       501 TATTCAATGTGATAACAAGGTTGCAATTCACATCAGCT------------    538
+
+ATCOPIA94       4575 gccaat-ccagttttctacgaacgtac-gaagcatatcgaacgaga-ctg   4621
+                      ||||| |||..|||| ||.||||.|| ||| |||||.|||.| || ||.
+AT1TE42355       539 -CCAATCCCATCTTTC-ACAAACGAACAGAA-CATATTGAATG-GATCTA    584
+
+ATCOPIA94       4622 tcattttgttc---gcgaaaaagttcagaatggtactatt--gcc-acag   4665
+                     | |||||||||   .|||||.|||   .||.|||...|||  ||| |   
+AT1TE42355       585 T-ATTTTGTTCACGACGAAATAGT---CAAAGGTGTCATTCGGCCTA---    627
+
+ATCOPIA94       4666 ttcatgt-ttcaacgactactcagcttgcggacattttcactaaggcatt   4714
+                     ||||||| ||.|.|||..| |||..|.||||||||||.||||||.||..|
+AT1TE42355       628 TTCATGTCTTTACCGAGGA-TCAAATGGCGGACATTTCCACTAAAGCTCT    676
+
+ATCOPIA94       4715 gggaagtcgggagtttgat--gtttttcgggacaagttgggcattgagga   4762
+                     .|||.|...||||||||||  |||.||  |..||||||   |||    .|
+AT1TE42355       677 TGGACGAAAGGAGTTTGATAGGTTCTT--GCTCAAGTT---CAT----AA    717
+
+ATCOPIA94       4763 tctccatgctccaacttgagggagggtattgagaatatctttgatattct   4812
+                     ||||...||||||||||.|||  ||.||||..|||||   .|.|||||.|
+AT1TE42355       718 TCTCTGCGCTCCAACTTTAGG--GGATATTATGAATA---ATTATATTTT    762
+
+ATCOPIA94       4813 catatcttagtaaata----ttctctatacatatatgttgtaactagtta   4858
+                     |.|.|.|||.|||.||    ||.|       |||||.||.|.|.|||.||
+AT1TE42355       763 CCTTTGTTAATAACTACAATTTGT-------TATATTTTCTTATTAGATA    805
+
+ATCOPIA94       4859 ag   4860
+                     ||
+AT1TE42355       806 AG    807
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE46200
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 407
+# Identity:     272/407 (66.8%)
+# Similarity:   272/407 (66.8%)
+# Gaps:          56/407 (13.8%)
+# Score: 769.0
+# 
+#
+#=======================================
+
+ATCOPIA94        150 atgg-tgtttaattgttgaattt-ctgttttgttgtttcattctttattg    197
+                     |||| |.||||  |||||||||| ||||.|..|..||.||||..|.||.|
+AT1TE46200         1 ATGGTTCTTTA--TGTTGAATTTCCTGTCTAATATTTCCATTAATCATGG     48
+
+ATCOPIA94        198 atctctgaattactgtatgacccagtg-tttttaattcgt---agtttaa    243
+                     |||||||||.|||..||||.||.|.|| ||||||  ||.|   ||||| |
+AT1TE46200        49 ATCTCTGAAATACCCTATGGCCGATTGCTTTTTA--TCATATAAGTTT-A     95
+
+ATCOPIA94        244 atcgtttatttctttgcatttttatatacaattatgaaaacaaaaca---    290
+                     |||||||||||..|||||||||.||.||.||.|.||||.||.|||||   
+AT1TE46200        96 ATCGTTTATTTTCTTGCATTTTAATTTATAACTCTGAATACTAAACAAAC    145
+
+ATCOPIA94        291 aatatcatttatgctttacataaaaacgagtctcacaaatctttagagca    340
+                     |||.|| |||| ||||||..|||.|||||||||...|||||.||||||.|
+AT1TE46200       146 AATCTC-TTTA-GCTTTAGCTAAGAACGAGTCTTGAAAATCCTTAGAGTA    193
+
+ATCOPIA94        341 tcagacgtggttcttatgaatcgaccgcatatttattgtcttacgattaa    390
+                     ||   ..|.||.|||.||.|||||||.|..||.||.|.|||...|.||||
+AT1TE46200       194 TC---TTTTGTCCTTGTGGATCGACCTCGAATATACTATCTAGGGGTTAA    240
+
+ATCOPIA94        391 ttgta-tcatgttactactccagcaattaattagta-------tcatatc    432
+                     .|||| ||| ||.|.|||||.||||||.|.|| .||       ||| .||
+AT1TE46200       241 GTGTATTCA-GTAATTACTCAAGCAATCAGTT-TTAAAGATGGTCA-CTC    287
+
+ATCOPIA94        433 tggtt--tcagaacaagaaaacataatt-ttaaaactttaatctgaattc    479
+                     |.|||  ||||..|  .|||.|||..|| ||    |.|..|.||||||  
+AT1TE46200       288 TCGTTTATCAGTTC--CAAAGCATTCTTGTT----CATGGACCTGAAT--    329
+
+ATCOPIA94        480 catccccattaaacgcacattactcacttgaagatattgtgtcatattat    529
+                      |||    |||..||       .||||||||.| ||||.|..|| ||.||
+AT1TE46200       330 -ATC----TTAGGCG-------ATCACTTGATG-TATTCTTACA-ATCAT    365
+
+ATCOPIA94        530 t-attca    535
+                     | |||||
+AT1TE46200       366 TGATTCA    372
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT1TE79310
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 324
+# Identity:     228/324 (70.4%)
+# Similarity:   228/324 (70.4%)
+# Gaps:          40/324 (12.3%)
+# Score: 753.5
+# 
+#
+#=======================================
+
+ATCOPIA94        157 ttaattgttgaatttctgttttgt----tgttt-cattctttattgatct    201
+                     ||.|||||||||||    .|||||    ||||| ||||.||.||||||||
+AT1TE79310         1 TTCATTGTTGAATT----ATTTGTCTCATGTTTCCATTATTCATTGATCT     46
+
+ATCOPIA94        202 ctgaattactgtatgacccagtgtttttaattcgt---agtttaaatcgt    248
+                     |||||.||...|||| ||||.|.|||||||.||.|   || |.|||||||
+AT1TE79310        47 CTGAAATATCATATG-CCCAATATTTTTAAATCTTGAAAG-TCAAATCGT     94
+
+ATCOPIA94        249 tt-atttctttgcatttttatatacaattatgaaaacaaaacaaatatca    297
+                     || ||||.|||||||||||.|.|||||.|.|||||||||||.|||.|.|.
+AT1TE79310        95 TTAATTTATTTGCATTTTTGTTTACAACTCTGAAAACAAAATAAACACCC    144
+
+ATCOPIA94        298 tttatgctttacataaaaacgagtctcac-aaatctttagagcatcagac    346
+                     |||..||||||..|||.||||||.||||| |||||.|||||..||   |.
+AT1TE79310       145 TTTCCGCTTTAGCTAACAACGAGCCTCACAAAATCCTTAGAATAT---AT    191
+
+ATCOPIA94        347 gtggttcttatgaatcga--ccgcatatttattgtcttacgattaattgt    394
+                     .||.||.||.||.|||||  .|||||||.|||  |.||.|..||||.|||
+AT1TE79310       192 TTGATTTTTGTGTATCGATTTCGCATATATAT--TTTTTCAGTTAAGTGT    239
+
+ATCOPIA94        395 atc-----atgttactactccagcaattaattagtatcatatctggtttc    439
+                     |.|     ||     |||||.||||||..||.|.|.|.|.|.||  ||||
+AT1TE79310       240 ACCGAACAAT-----TACTCGAGCAATGTATAATTTTAAAAACT--TTTC    282
+
+ATCOPIA94        440 -----agaacaagaaaacataatt    458
+                          ||.|||||||||.||||||
+AT1TE79310       283 TAATAAGGACAAGAAAAGATAATT    306
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT2TE23890
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 274
+# Identity:     193/274 (70.4%)
+# Similarity:   193/274 (70.4%)
+# Gaps:          30/274 (10.9%)
+# Score: 651.0
+# 
+#
+#=======================================
+
+ATCOPIA94        156 tttaattgttgaatttctgttttgttgtttc-attctttattgatctctg    204
+                     ||||  ||.|||||||||..|||.||.|.|| |||..|.|||||||||||
+AT2TE23890         1 TTTA--TGCTGAATTTCTTGTTTCTTATCTCTATTAATCATTGATCTCTG     48
+
+ATCOPIA94        205 aattactgtatgacccagtgttttt-------aattcgtagtttaaatcg    247
+                     ||.||      |..|||.||.||||       ||     ||||| |||||
+AT2TE23890        49 AAATA------GGTCCAATGCTTTTTATCACAAA-----AGTTT-AATCG     86
+
+ATCOPIA94        248 tttatttctttgcatttttatatacaattatgaaaacaaaacaaatatca    297
+                     .||||||.||||||||||.||.||||| |..||||||.|||||||.|.|.
+AT2TE23890        87 ATTATTTTTTTGCATTTTAATTTACAA-TCCGAAAACCAAACAAACAACC    135
+
+ATCOPIA94        298 tttatgctttacataaaaacgagtctcacaaatctttagagcatcagacg    347
+                     |||..||||||..|||||||||||||||.|||||.||||||.|||   ..
+AT2TE23890       136 TTTTCGCTTTAGCTAAAAACGAGTCTCAGAAATCCTTAGAGTATC---TT    182
+
+ATCOPIA94        348 tggttcttatgaatcgac--cgcatatttattgtcttacgattaattgta    395
+                     ||||.|||.||.||||||  ||||||  ||.|..||..|..||||.||||
+AT2TE23890       183 TGGTCCTTGTGGATCGACCTCGCATA--TACTACCTAGCAGTTAAGTGTA    230
+
+ATCOPIA94        396 tcatgttactactccagcaattaa    419
+                     ||..|..|.|||||.||||||.||
+AT2TE23890       231 TCGAGCAATTACTCGAGCAATCAA    254
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT2TE19720
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 335
+# Identity:     221/335 (66.0%)
+# Similarity:   221/335 (66.0%)
+# Gaps:          59/335 (17.6%)
+# Score: 656.0
+# 
+#
+#=======================================
+
+ATCOPIA94        132 gttaataaacaacacattatggtgtttaattgttgaatttctgttttgt-    180
+                     |||.|.||||||          ||.||.|||||||||.||| .||.||| 
+AT2TE19720         1 GTTCAAAAACAA----------TGCTTCATTGTTGAAATTC-CTTGTGTC     39
+
+ATCOPIA94        181 -tgtttc-attctttattg-atctctgaattactgtatgacccagtgttt    227
+                      |||||| |||.||.|||| ||||.||||.||| ..||.|||||.|||.|
+AT2TE19720        40 GTGTTTCTATTATTCATTGAATCTTTGAAATAC-CCATAACCCAATGTCT     88
+
+ATCOPIA94        228 ttaattcgt-agtttaaatcgtttatttctttgc-atttttatatacaat    275
+                     |||||||.| ||||| |||.|||.|.||.|||.| ||||||||.|  |||
+AT2TE19720        89 TTAATTCATAAGTTT-AATTGTTAAGTTATTTACAATTTTTATTT--AAT    135
+
+ATCOPIA94        276 ta-----tgaaaa-caaaacaaatatcatttatgctttacataaaaacga    319
+                     ||     |||||| |.|||||||.|.|.|||.||.||||..|||.|||||
+AT2TE19720       136 TACAATCTGAAAACCCAAACAAACAACTTTTTTGTTTTAGGTAAGAACGA    185
+
+ATCOPIA94        320 gtctcacaaatcttt-agagcatcagacgtggttcttatgaatcgac--c    366
+                     ||||||.||||.||| |.||.|| |....||||..||.||.||||||  |
+AT2TE19720       186 GTCTCAAAAATGTTTAAAAGTAT-ATCTTTGGTCTTTGTGGATCGACCTC    234
+
+ATCOPIA94        367 gcatat-----ttattgtcttacga-----ttaattgtatcatgttacta    406
+                     |.||||     ||.|.|  |||.||     |||||||             
+AT2TE19720       235 GAATATACTACTTTTGG--TTAAGATTGAGTTAATTG-------------    269
+
+ATCOPIA94        407 ctccagcaattaatt--agtatcata-tctggttt    438
+                     |||.||||||.|.||  |.|||.||| |.|.||||
+AT2TE19720       270 CTCGAGCAATCATTTTAAATATTATATTTTTGTTT    304
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT2TE26650
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 274
+# Identity:     197/274 (71.9%)
+# Similarity:   197/274 (71.9%)
+# Gaps:          16/274 ( 5.8%)
+# Score: 628.5
+# 
+#
+#=======================================
+
+ATCOPIA94        152 ggtgtttaattgttgaattt-ctgttttgttgtttcattct--ttattga    198
+                     |||..||.||..|||||||| ||||||||||..||| |.||  ||.||| 
+AT2TE26650         1 GGTTCTTCATAATTGAATTTCCTGTTTTGTTTATTC-TGCTAGTTTTTG-     48
+
+ATCOPIA94        199 tc-tctgaattactgtatgacccagtgtttttaattcgt-agtttaaatc    246
+                     || |.||||.|||..||..|||||.|.|.|..|||.|.| |||||||.||
+AT2TE26650        49 TCTTTTGAAATACCCTAACACCCAATATCTCCAATCCATAAGTTTAATTC     98
+
+ATCOPIA94        247 gtttatttctttgcatttttatatacaattatgaaaacaaaacaaata--    294
+                     .|||||||.|||.||||||.||.||.||||.|||||||.|||||||.|  
+AT2TE26650        99 TTTTATTTATTTTCATTTTCATTTATAATTCTGAAAACCAAACAAACAAC    148
+
+ATCOPIA94        295 -tcatttatgctttacataaaaacgagtctcacaaatctttagagcatca    343
+                      || |||| |.||||..|.|.|||||||.|||.||||.|||||||.||| 
+AT2TE26650       149 CTC-TTTA-GTTTTAGCTCATAACGAGTTTCAGAAATTTTTAGAGTATC-    195
+
+ATCOPIA94        344 gacgtggttcttatgaatcgaccgcatatttattgtcttacgattaattg    393
+                       ..|.||.|||||.||||||.|.||.||.||..||||..|||||||.||
+AT2TE26650       196 --TTTTGTCCTTATAAATCGATCTCAAATATACAGTCTAGCGATTAAGTG    243
+
+ATCOPIA94        394 tatcatgtt-actactccagcaat    416
+                     |||...||| |.||.||.||||||
+AT2TE26650       244 TATTGAGTTAATTATTCGAGCAAT    267
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT2TE07665
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 309
+# Identity:     207/309 (67.0%)
+# Similarity:   207/309 (67.0%)
+# Gaps:          47/309 (15.2%)
+# Score: 592.0
+# 
+#
+#=======================================
+
+ATCOPIA94        154 tgtttaattgttg-aatttctgttttgt--tgtttc-attctttattg-a    198
+                     ||.||.||||||| ||.|||  ||.|||  |||||| |||.||.|||| |
+AT2TE07665         1 TGCTTCATTGTTGAAAATTC--TTGTGTCGTGTTTCTATTATTCATTGAA     48
+
+ATCOPIA94        199 tctctgaattactgtatgacccagtgtttttaattcgt-agtttaaatcg    247
+                     |||.||||.||| ..||.|||||.|.|.||||||||.| ||||| |||.|
+AT2TE07665        49 TCTTTGAAATAC-CCATAACCCAATATCTTTAATTCATAAGTTT-AATTG     96
+
+ATCOPIA94        248 tttatttctttgc-atttttatatacaatta-----tgaaaa-caaaaca    290
+                     ||.|.||.|.|.| ||||||||.|  |||||     |||||| |.|||||
+AT2TE07665        97 TTAAGTTATCTACAATTTTTATTT--AATTACAATCTGAAAACCCAAACA    144
+
+ATCOPIA94        291 aatatcatttatgctttacataaaaacgagtctcacaaatcttt---aga    337
+                     ||.|.|.|||.||.||||..|||.|||.|||||||.||||..||   ||.
+AT2TE07665       145 AACAACTTTTTTGTTTTAGGTAAGAACTAGTCTCAAAAATGCTTAAAAGT    194
+
+ATCOPIA94        338 gcatcagacgtggttcttatgaatcgac--cgcatat-----ttattgtc    380
+                     |.|||   ..||||.|||.|..||||||  ||.||||     ||.||   
+AT2TE07665       195 GTATC---TTTGGTCCTTGTAGATCGACTTCGAATATACTACTTTTT---    238
+
+ATCOPIA94        381 ttacgattaattgtatcat---gtt-actactccagcaattaatt--agt    424
+                         |.||||.|||||  |   ||| |.||||..||||||.|.||  |.|
+AT2TE07665       239 ----GGTTAAGTGTAT--TTGAGTTAATTACTTGAGCAATCATTTTAAAT    282
+
+ATCOPIA94        425 atcatatct    433
+                     ||.||||.|
+AT2TE07665       283 ATTATATTT    291
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT2TE20570
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 118
+# Identity:      85/118 (72.0%)
+# Similarity:    85/118 (72.0%)
+# Gaps:           7/118 ( 5.9%)
+# Score: 289.0
+# 
+#
+#=======================================
+
+ATCOPIA94        303 gctttacataaaaacgagtctcacaaatctttagagcatcagacgtggtt    352
+                     ||||||..|||.|||||.|||...|||||.|||.||.|||   ..|||||
+AT2TE20570         1 GCTTTAGCTAAGAACGAATCTTGAAAATCCTTAAAGTATC---TTTGGTT     47
+
+ATCOPIA94        353 cttatgaatcgac--cgcatatttattgtcttacgattaattgtatcatg    400
+                     |||.|||||||||  ||||||  ||.|..|||.||.||||.||||||..|
+AT2TE20570        48 CTTGTGAATCGACCTCGCATA--TACTACCTTGCGGTTAAGTGTATCGAG     95
+
+ATCOPIA94        401 ttactactccagcaatta    418
+                     ..|.|||||.||||||.|
+AT2TE20570        96 CAATTACTCAAGCAATCA    113
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT2TE05380
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 420
+# Identity:     271/420 (64.5%)
+# Similarity:   271/420 (64.5%)
+# Gaps:          70/420 (16.7%)
+# Score: 766.5
+# 
+#
+#=======================================
+
+ATCOPIA94         32 tagtaaatattctctatacatatatgttgtaactagttaagggatattcg     81
+                     |||.||||      ||||.|||.|.||  |.|.||||||||   ||.||.
+AT2TE05380         1 TAGGAAAT------TATAAATAAAAGT--TTAGTAGTTAAG---TAGTCA     39
+
+ATCOPIA94         82 a--ttaggttttatgcacatactctcttgtataaataga---aggctcag    126
+                     |  |||   ||.||     ||.|.|||||   |.|.|||   ||.||.|.
+AT2TE05380        40 AAGTTA---TTGAT-----TAATGTCTTG---AGAGAGAATTAGTCTAAA     78
+
+ATCOPIA94        127 cctccgttaataaacaacacattatggtgtttaattgttgaatttctgtt    176
+                     |.|..|||.||...|.|.|    |.|||.|||.| |||||||||.|    
+AT2TE05380        79 CTTGTGTTCATGTTCGAGA----ACGGTTTTTTA-TGTTGAATTCC----    119
+
+ATCOPIA94        177 ttgt----tgttt-cattctttattgatctctgaattactgtatgaccca    221
+                     ||||    |.||| ||||..|.||||||||.||||.|||..||||.||||
+AT2TE05380       120 TTGTCCAATATTTCCATTAATCATTGATCTTTGAAATACCCTATGGCCCA    169
+
+ATCOPIA94        222 gtgtttttaattcgt---agtttaaatcgttta-tttctttgcattttta    267
+                     .|.|||||.| ||.|   ||||| ||||||||| |||| |||||||||.|
+AT2TE05380       170 ATATTTTTTA-TCATATAAGTTT-AATCGTTTAGTTTC-TTGCATTTTAA    216
+
+ATCOPIA94        268 tatacaattatgaaaacaaaacaaatatc-------atttatgctttaca    310
+                     |.||||| |..||||||.|||||||.|.|       ||||| ||      
+AT2TE05380       217 TTTACAA-TCCGAAAACCAAACAAACAACCTCTCCAATTTA-GC------    258
+
+ATCOPIA94        311 taaaaacgagtctcacaaatctttagagcatcagacgtggttcttatgaa    360
+                     |||.||||||||||..|||||.|||.||.|||   ..||||.|||.||.|
+AT2TE05380       259 TAAGAACGAGTCTCGGAAATCCTTATAGTATC---TTTGGTCCTTGTGGA    305
+
+ATCOPIA94        361 tcgaccgcatatttattgtcttacgattaattgtatcatgttactactcc    410
+                     ||||||.|.|||.||.|..||..|..||||.||||||..|..|.|||||.
+AT2TE05380       306 TCGACCCCGTATATACTACCTAGCAGTTAAGTGTATCGAGCAATTACTCG    355
+
+ATCOPIA94        411 agcaat---taa-ttagtat    426
+                     |.||||   ||| ||||.||
+AT2TE05380       356 AACAATCACTAAGTTAGGAT    375
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT3TE51605
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 231
+# Identity:     171/231 (74.0%)
+# Similarity:   171/231 (74.0%)
+# Gaps:          25/231 (10.8%)
+# Score: 579.0
+# 
+#
+#=======================================
+
+ATCOPIA94        158 taattgttgaatttctgttttgt----tgttt-cattctttattgatctc    202
+                     |||||||||||||.|    ||||    ||||| ||||.|||||||.||||
+AT3TE51605         1 TAATTGTTGAATTCC----TTGTCTCATGTTTCCATTGTTTATTGTTCTC     46
+
+ATCOPIA94        203 tgaatta--ctgtatgacccagtgtttttaa--ttcgtagtttaaatcgt    248
+                     ||||.||  || .||| ||.|.|||.|||||  .|||.|..|||||||||
+AT3TE51605        47 TGAAATATCCT-AATG-CCTAATGTCTTTAAATCTCGAAAGTTAAATCGT     94
+
+ATCOPIA94        249 tt-atttctttgcatttttatatacaattatgaaaac-aaaacaaatatc    296
+                     || ||||.|.|||||||||||.||||| |.|||.||| .|||||||.|.|
+AT3TE51605        95 TTAATTTATATGCATTTTTATTTACAA-TCTGATAACTCAAACAAAAACC    143
+
+ATCOPIA94        297 a--tttatgctttacataaaaacgagtctcacaaatctttagagcatcag    344
+                     |  |||..||||||..|||.||||||||||..|||||||||.||.|||  
+AT3TE51605       144 ATCTTTCCGCTTTAGCTAAGAACGAGTCTCGGAAATCTTTAAAGTATC--    191
+
+ATCOPIA94        345 acgtggttcttatgaatcgac--cgcatatt    373
+                      ..||||.|||.||.||||||  ||.|||||
+AT3TE51605       192 -TTTGGTCCTTGTGGATCGACCTCGAATATT    221
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT3TE50005
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 310
+# Identity:     213/310 (68.7%)
+# Similarity:   213/310 (68.7%)
+# Gaps:          33/310 (10.6%)
+# Score: 659.5
+# 
+#
+#=======================================
+
+ATCOPIA94        162 tgttgaatttctgttttgt----tgttt-cattctttattgatctctgaa    206
+                     ||.||||||.|    ||||    |.||| ||||..|.|||||||||||||
+AT3TE50005         1 TGCTGAATTCC----TTGTCTAATATTTCCATTAATCATTGATCTCTGAA     46
+
+ATCOPIA94        207 ttactgtatgacccagtg-tttttaattcgtagtttaaatcgtttatttc    255
+                     .|||.|||||.|.||.|| ||||||.|...||..||.||||||||||||.
+AT3TE50005        47 ATACCGTATGGCTCAATGCTTTTTATTATATAACTTTAATCGTTTATTTT     96
+
+ATCOPIA94        256 tttgcatttttatatacaattatgaaaacaaaacaaatatcatttatgct    305
+                     .|||.|||||.||.||||||....|||||.|||||||.|.|.|||.|.||
+AT3TE50005        97 CTTGTATTTTAATTTACAATCGAAAAAACCAAACAAACAACCTTTCTACT    146
+
+ATCOPIA94        306 ttacataaaaacgagtctcacaaatctttagagcatcagacgtggttctt    355
+                     |||..|||.|||||.|.|||.|||||.|||.||.|||   ..||||.|||
+AT3TE50005       147 TTAGCTAAGAACGACTTTCAGAAATCCTTAAAGTATC---TTTGGTCCTT    193
+
+ATCOPIA94        356 atgaatcgacc--gcatatttattgtcttacgattaattgtatcatgtta    403
+                     |||.|||.|||  ||   |.||||..|||..|.||||.||||||..|..|
+AT3TE50005       194 ATGGATCAACCTTGC---TATATTACCTTTTGGTTAAGTGTATCGAGCAA    240
+
+ATCOPIA94        404 ctactccagcaat--taa---tta--gtatcatatctggttt-cagaaca    445
+                     .|||||.|.||||  |||   |||  ||.|.|    |||||| || ||||
+AT3TE50005       241 TTACTCGAACAATCATAAGATTTAAGGTTTGA----TGGTTTACA-AACA    285
+
+ATCOPIA94        446 agaaaacata    455
+                       ||||.|||
+AT3TE50005       286 --AAAAGATA    293
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT3TE52295
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 262
+# Identity:     182/262 (69.5%)
+# Similarity:   182/262 (69.5%)
+# Gaps:          19/262 ( 7.3%)
+# Score: 561.5
+# 
+#
+#=======================================
+
+ATCOPIA94        162 tgttgaatttctgttttgttgttt--cattctttattgatctctgaatta    209
+                     ||.||||||.||..|||.||.|||  ||||..|.|||||..|||.||.||
+AT3TE52295         1 TGCTGAATTACTTGTTTATTATTTTCCATTAATCATTGAATTCTAAAATA     50
+
+ATCOPIA94        210 ctgtatgacccagtg-tttttaattc--gtagtttaaatcgtttatttct    256
+                     |..|||..||||.|| ||||||  ||  |||..|..||||||||.|||..
+AT3TE52295        51 CCCTATTGCCCAATGCTTTTTA--TCATGTAAATCTAATCGTTTCTTTTC     98
+
+ATCOPIA94        257 ttgcatttttatatacaattatgaaaacaaaacaaatatcatttatgctt    306
+                     |||||||||.||.||||| |.|||||||.|||||||.|.|.|.|..||||
+AT3TE52295        99 TTGCATTTTAATTTACAA-TCTGAAAACCAAACAAACAACCTCTTCGCTT    147
+
+ATCOPIA94        307 tacataaaaacgagtctcacaaatctttagagcatcagacgtggttctta    356
+                     ||..|||.|||||||||...||||..||||||.|||   ..||||.|||.
+AT3TE52295       148 TAGCTAAGAACGAGTCTTGGAAATTCTTAGAGTATC---TTTGGTCCTTG    194
+
+ATCOPIA94        357 tgaatcgacc--gcatatt-tattgtctt-acgattaattgtatcatgtt    402
+                     ||..||||||  |.||||| ||    ||| |||.|||.||.|.|...||.
+AT3TE52295       195 TGGTTCGACCTTGAATATTCTA----CTTAACGGTTAGTTATTTTGGGTA    240
+
+ATCOPIA94        403 actactccagca    414
+                     |.|||||.||||
+AT3TE52295       241 ATTACTCGAGCA    252
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT3TE50060
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 268
+# Identity:     189/268 (70.5%)
+# Similarity:   189/268 (70.5%)
+# Gaps:          21/268 ( 7.8%)
+# Score: 617.0
+# 
+#
+#=======================================
+
+ATCOPIA94        162 tgttgaatttctgttttgt----tgttt-cattctttattgatctctgaa    206
+                     ||.||||||.|    ||||    |.||| ||||..|.|||||||||||||
+AT3TE50060         1 TGCTGAATTCC----TTGTCTAATATTTCCATTAATCATTGATCTCTGAA     46
+
+ATCOPIA94        207 ttactgtatgacccagtg-tttttaattcgtagtttaaatcgtttatttc    255
+                     .|||.|||||.|.||.|| ||||||.|...||..||.||||||||||||.
+AT3TE50060        47 ATACCGTATGGCTCAATGCTTTTTATTATATAACTTTAATCGTTTATTTT     96
+
+ATCOPIA94        256 tttgcatttttatatacaattatgaaaacaaaacaaatatcatttatgct    305
+                     .||.||||||.||.||.|||...||||||.|||||||.|.|.|||..|||
+AT3TE50060        97 CTTACATTTTAATTTATAATCGAGAAAACCAAACAAACAACCTTTTCGCT    146
+
+ATCOPIA94        306 ttacataaaaacgagtctcacaaatctttagagcatcagacgtggttctt    355
+                     |||..|||.||||||||||..||||||||||||.|||   ..||||.|||
+AT3TE50060       147 TTAGCTAAGAACGAGTCTCGGAAATCTTTAGAGTATC---TTTGGTCCTT    193
+
+ATCOPIA94        356 atgaatcgacc--gcatatttattgtcttacgattaattgtatcatg--t    401
+                     .||.||.||||  |||||  ||.|..|||.|..||||.||||||..|  |
+AT3TE50060       194 GTGGATTGACCTTGCATA--TACTACCTTTCAGTTAAGTGTATCGAGCAT    241
+
+ATCOPIA94        402 tactactccagcaattaa    419
+                     |  |||||.||.||..||
+AT3TE50060       242 T--TACTCGAGTAACCAA    257
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT3TE52735
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 283
+# Identity:     194/283 (68.6%)
+# Similarity:   194/283 (68.6%)
+# Gaps:          39/283 (13.8%)
+# Score: 598.5
+# 
+#
+#=======================================
+
+ATCOPIA94        156 tttaattgttgaatttctgttttgttgttt-cattctttattgatctctg    204
+                     ||||  ||.||||||.||..|||.||.||| ||||..|.|||||||||||
+AT3TE52735         1 TTTA--TGCTGAATTCCTTGTTTATTATTTCCATTAATCATTGATCTCTG     48
+
+ATCOPIA94        205 aattactgtatgacccagtg-tttttaattcgt---agtttaaatcgttt    250
+                     ||.|||..||||.||||.|| ||||||  ||.|   ||||| |||.|||.
+AT3TE52735        49 AAATACCCTATGGCCCAATGCTTTTTA--TCATATAAGTTT-AATGGTTC     95
+
+ATCOPIA94        251 atttctttgcatttttatatacaattat---gaaaacaaaacaaatatca    297
+                     ||||.||||||||||.||.||||| .||   .|||||.||||||..|.|.
+AT3TE52735        96 ATTTATTTGCATTTTAATTTACAA-AATCCGAAAAACCAAACAAGCAACC    144
+
+ATCOPIA94        298 tttatgctttacataaaaacgagtctcacaaatctttagagcatcagacg    347
+                     |.|..||||||..|||.||||||||||..|.|||.||||||.|||   ..
+AT3TE52735       145 TCTTCGCTTTAGCTAAGAACGAGTCTCGGACATCCTTAGAGTATC---TT    191
+
+ATCOPIA94        348 tggttcttatgaatcgac--cgcatatt-tattgtctt-acgatta---a    390
+                     |.||.|||.||.||||||  ||.||||| ||    ||| ||..|||   |
+AT3TE52735       192 TTGTCCTTGTGGATCGACCTCGAATATTCTA----CTTAACAGTTAGATA    237
+
+ATCOPIA94        391 tt----gtatcatgttactactccagcaattaa    419
+                     ||    |||       |.||.|||||||||.||
+AT3TE52735       238 TTTTGGGTA-------ATTATTCCAGCAATCAA    263
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT3TE65475
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 273
+# Identity:     195/273 (71.4%)
+# Similarity:   195/273 (71.4%)
+# Gaps:          22/273 ( 8.1%)
+# Score: 645.0
+# 
+#
+#=======================================
+
+ATCOPIA94        157 ttaattgttgaatt-tctgttttgttgtttcat-----tctttattgatc    200
+                     ||.||..||||||| |||.||||||| |.|.||     |||||    .||
+AT3TE65475         1 TTCATAATTGAATTCTCTATTTTGTT-TATTATGCTAATCTTT----GTC     45
+
+ATCOPIA94        201 -tctgaattactgtatgacccagtgtttttaattcgtagtttaaatcgtt    249
+                      |.||||.|||..||...||||.|||.||||||.|.||.|||.|||||||
+AT3TE65475        46 TTTTGAAATACCCTAACGCCCAATGTCTTTAATCCATAATTTTAATCGTT     95
+
+ATCOPIA94        250 tatttctttgcatttttatatacaatt-atgaaaacaaaacaaatatcat    298
+                     |||||..|||||||||.||.||.|||| |  |||||.|||||||.|.|.|
+AT3TE65475        96 TATTTTCTTGCATTTTAATTTATAATTCA--AAAACCAAACAAACAACGT    143
+
+ATCOPIA94        299 ttatgctttacataaaaacgagtctcacaaatctttagagcatcagacgt    348
+                     ||.|||||||..|||.||||||||||..|||||.||||||.|||   ..|
+AT3TE65475       144 TTTTGCTTTAGCTAAGAACGAGTCTCGGAAATCCTTAGAGTATC---TTT    190
+
+ATCOPIA94        349 ggttcttatgaatcgac--cgcatatttattgtcttacgattaattgtat    396
+                     |||.|||.||.||||||  ||||||  ||.|..|||.||.||||.|.|||
+AT3TE65475       191 GGTCCTTGTGGATCGACCTCGCATA--TACTACCTTGCGGTTAAGTTTAT    238
+
+ATCOPIA94        397 catgttactactccagcaattaa    419
+                     |..|..|.|||||.||||||.||
+AT3TE65475       239 CGAGCAATTACTCGAGCAATCAA    261
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT3TE52235
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 249
+# Identity:     174/249 (69.9%)
+# Similarity:   174/249 (69.9%)
+# Gaps:          23/249 ( 9.2%)
+# Score: 527.0
+# 
+#
+#=======================================
+
+ATCOPIA94        162 tgttgaatttctgttttgttgttt-cattctttattgatctctgaattac    210
+                     ||.||||||.||..|||.||.||| ||||..|.|||||..|||.||.|||
+AT3TE52235         1 TGCTGAATTACTTGTTTATTATTTCCATTAATCATTGAATTCTAAAATAC     50
+
+ATCOPIA94        211 tgtatgacccagtg-tttttaattc--gtagtttaaatcgtttatttctt    257
+                     ..|||..||||.|| ||||||  ||  |||..|.|||||||||.|||..|
+AT3TE52235        51 CCTATTGCCCAATGCTTTTTA--TCATGTAAATCAAATCGTTTCTTTTCT     98
+
+ATCOPIA94        258 tgcatttttatatacaattatgaaaacaaaacaaatatcatttatgcttt    307
+                     ||||||||.||.||||| |.|||||||.|||||||.|.|.|.|..|||||
+AT3TE52235        99 TGCATTTTAATTTACAA-TCTGAAAACCAAACAAACAACCTCTTCGCTTT    147
+
+ATCOPIA94        308 acataaaaacgagtct--cacaaatctttagagcatcagacgtggttctt    355
+                     |..|||.|||||||||  .| ||||..||||||.|||   ..||||.|||
+AT3TE52235       148 AGCTAAGAACGAGTCTTGGA-AAATTCTTAGAGTATC---TTTGGTCCTT    193
+
+ATCOPIA94        356 atgaatcgaccgcatatttattgt-ctt-acgattaattgtatcatgtt    402
+                      ||..||||||.||.|  ||||.| ||| |||.|||.||     ||.||
+AT3TE52235       194 -TGGTTCGACCTCAAA--TATTCTACTTAACGGTTAGTT-----ATTTT    234
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT3TE91865
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 610
+# Identity:     373/610 (61.1%)
+# Similarity:   373/610 (61.1%)
+# Gaps:          89/610 (14.6%)
+# Score: 981.5
+# 
+#
+#=======================================
+
+ATCOPIA94       3157 atc-atcgactccgtatccgattagtgatgtcctcactgatgctcgtttt   3205
+                     ||| |||    ||.||.|.||||    |||| ||||||  ||.|||.||.
+AT3TE91865         1 ATCTATC----CCTTAACTGATT----ATGT-CTCACT--TGATCGGTTC     39
+
+ATCOPIA94       3206 tcatcagctcacaaagct-tttcttacagctatta-cattagctcatgaa   3253
+                     ||..|..|||| |.||.| |||.|..|.||||||| |..|.|.||| ||.
+AT3TE91865        40 TCTCCTCCTCA-ACAGATGTTTTTGGCCGCTATTAGCGCTGGTTCA-GAG     87
+
+ATCOPIA94       3254 ccggcaacttatgcagaagcttttgcagacccaaaatggcgtgatgccac   3303
+                     ||.|...|.|.|..|.||||..|....||.|.||.||||..|.||||...
+AT3TE91865        88 CCCGTTTCATTTAAACAAGCAATGAGTGATCGAAGATGGACTCATGCGGT    137
+
+ATCOPIA94       3304 gaaagaagagatt--gatgctcttgtcttgaatcacacatgggatattga   3351
+                     .||||.|||..||  ||.|         .||||.|.||.||||||||  |
+AT3TE91865       138 TAAAGGAGAAGTTGGGAAG---------AGAATGAAACTTGGGATAT--A    176
+
+ATCOPIA94       3352 aga--tttaccactaggaaaagttgcgattggttccaagtgggtctt---   3396
+                     |.|  .||.|||..|||||||..||||||.||.|.|||.|||||.||   
+AT3TE91865       177 ACAACATTGCCAGAAGGAAAACATGCGATAGGCTGCAAATGGGTTTTTCG    226
+
+ATCOPIA94       3397 caaggttaagcatcgctagga-----cagtggaacggtacaagactcggt   3441
+                     ||   |||||.||..||..||     |..|.|||.|||.|||..||||..
+AT3TE91865       227 CA---TTAAGTATAACTCTGATGGATCTATCGAAAGGTTCAAAGCTCGTC    273
+
+ATCOPIA94       3442 tagttgct-ttaggaaaccgacagaaagagggcattgattttgatgagac   3490
+                     |.||.||| ||.||.||..||||..|.||.||.|..||||....|||.||
+AT3TE91865       274 TTGTAGCTCTTTGGGAATAGACAAGAGGAAGGGACAGATTACACTGAAAC    323
+
+ATCOPIA94       3491 atttgctccggttgcgaaaatgacttcggttcgta-tatttttatcgatt   3539
+                     .|||||.||.||||.|||.|||||..||.|||||| |.|.||    ||..
+AT3TE91865       324 GTTTGCACCAGTTGTGAAGATGACAACGATTCGTACTCTGTT----GAAA    369
+
+ATCOPIA94       3540 gtggct---gctcggaattgggaggtgcaccaaatggatgttcataatgc   3586
+                     ||.|||   |||||.||||||||..|....||||||||.||||||||.||
+AT3TE91865       370 GTTGCTTCCGCTCGTAATTGGGAATTATTTCAAATGGACGTTCATAACGC    419
+
+ATCOPIA94       3587 gttcttacatggtgatctcgaagaagaggtctacatgaagttaccgcc--   3634
+                     .||.||||||||.|||||.||.|||||..|.||.||||.|.|.||.||  
+AT3TE91865       420 CTTTTTACATGGAGATCTAGAGGAAGAAATTTATATGACGGTTCCACCGG    469
+
+ATCOPIA94       3635 ------------aggatactttgcccaacacaaaggt----aaagtgtgt   3668
+                                 .||||.|||         ||||.||    |||      
+AT3TE91865       470 GTGTTGAAAATGTGGATTCTT---------CAAAAGTTTGCAAA------    504
+
+ATCOPIA94       3669 cgtcttcgaaagtcattgtatgg-cttgaaacaagctccacgatgttggt   3717
+                        |||..||||||..|.||.|| ||| ||||||||||...||||.||||
+AT3TE91865       505 ---CTTAAAAAGTCGCTTTACGGACTT-AAACAAGCTCAGAGATGCTGGT    550
+
+ATCOPIA94       3718 ttgcaaaatt   3727
+                     ||.|||||.|
+AT3TE91865       551 TTTCAAAACT    560
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT4TE22085
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 287
+# Identity:     154/287 (53.7%)
+# Similarity:   154/287 (53.7%)
+# Gaps:          90/287 (31.4%)
+# Score: 382.0
+# 
+#
+#=======================================
+
+ATCOPIA94       4633 gcgaaaaagttcag---aatggtactattgccacagtt----catgtttc   4675
+                     ||.||||.||.|||   .|| ||.||.|.||||..|.|    |.||||||
+AT4TE22085         1 GCTAAAACGTCCAGCTTCAT-GTGCTTTAGCCATGGGTCGGGCCTGTTTC     49
+
+ATCOPIA94       4676 aacgactactcagcttgcggacattttcactaaggca-ttgg--gaagtc   4722
+                     |||.|..|.|||||.|....||.|.|||||.||.||| ||||  |||..|
+AT4TE22085        50 AACAATAATTCAGCATATCAACGTGTTCACCAATGCACTTGGTAGAAAAC     99
+
+ATCOPIA94       4723 gggagtttga---tgtttt-------tcgggacaagttgggcattgagga   4762
+                        |.|||.|   .|||||       ||.||       .||||||.|.||
+AT4TE22085       100 ---AATTTCAAACGGTTTTACCCTAATCAGG-------CGGCATTCAAGA    139
+
+ATCOPIA94       4763 tctccatgctccaactt----gagggagggtattgagaatatctttgata   4808
+                     .|||..|||||.|||||    |.||||.||||||||| ||||     |||
+AT4TE22085       140 CCTCATTGCTCTAACTTTAGAGGGGGAAGGTATTGAG-ATAT-----ATA    183
+
+ATCOPIA94       4809 ttctcatat----cttagtaaatattctctatacatatatg----ttgta   4850
+                     ||.|  |||    |||                     .|||    ||   
+AT4TE22085       184 TTGT--TATTGGGCTT---------------------CATGGGCTTT---    207
+
+ATCOPIA94       4851 actagttaagggatattcgattaggttttatgcacat   4887
+                          ||||.|||||          |||||||.||||
+AT4TE22085       208 -----TTAAAGGATA----------TTTTATGTACAT    229
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT4TE10650
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 270
+# Identity:     189/270 (70.0%)
+# Similarity:   189/270 (70.0%)
+# Gaps:          26/270 ( 9.6%)
+# Score: 598.0
+# 
+#
+#=======================================
+
+ATCOPIA94        154 tgtttaattgttgaatttc-tgttt--tgttgtttcattctttattgatc    200
+                     ||.||.||.||||||||.| |||.|  |||  |||||||.||.||||||.
+AT4TE10650         1 TGCTTCATGGTTGAATTCCTTGTCTAATGT--TTTCATTATTCATTGATA     48
+
+ATCOPIA94        201 tctgaattactgtatgacccagtgtttttaattcgt-agtttaaatcgtt    249
+                     ||||||.|||..|||..|.||.|||.||||||||.| ||||  .|||.||
+AT4TE10650        49 TCTGAAATACCCTATAGCACAATGTCTTTAATTCATAAGTT--GATCTTT     96
+
+ATCOPIA94        250 tatttctttgc-atttttatatacaattatgaaaa-caaaacaaatatca    297
+                     .|.||.||||| ||||||||.||||| |.|||||| |.|||||||.|.|.
+AT4TE10650        97 AAATTATTTGCAATTTTTATTTACAA-TCTGAAAATCCAAACAAACAACC    145
+
+ATCOPIA94        298 tttatgctttacataaaaacgagtctcacaaatctttagagcatcagacg    347
+                     |||..||..||..||||||.||||||...|||||.||||||.|||   ..
+AT4TE10650       146 TTTTCGCGCTAGCTAAAAATGAGTCTTGGAAATCCTTAGAGTATC---TT    192
+
+ATCOPIA94        348 tggttcttatgaatcgaccgcatatttattgtcttacgattaa-ttgtat    396
+                     ||||.|||.||.||||||.||  .|||||         |.||| ||||||
+AT4TE10650       193 TGGTCCTTCTGGATCGACTGC--GTTTAT---------ACTAACTTGTAT    231
+
+ATCOPIA94        397 catgttactactccagcaat    416
+                     |..||.|.||||..||.|||
+AT4TE10650       232 CGAGTAATTACTTGAGAAAT    251
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT4TE10565
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 205
+# Identity:     139/205 (67.8%)
+# Similarity:   139/205 (67.8%)
+# Gaps:          20/205 ( 9.8%)
+# Score: 453.5
+# 
+#
+#=======================================
+
+ATCOPIA94        157 ttaattgttgaatttctgttttgttgtttca-------ttctttattgat    199
+                     ||||||..||||||.|       .||||.||       ||||..||||||
+AT4TE10565         1 TTAATTTCTGAATTAC-------CTGTTACATCTATTCTTCTAGATTGAT     43
+
+ATCOPIA94        200 ctctgaattactgtatgacccagtgtttttaattcgt-agtttaaatcgt    248
+                     ...|.||.||.|.|||..|.||.|||.||||||||.| ||||| |||.||
+AT4TE10565        44 TATTAAAATATTCTATAGCTCAATGTCTTTAATTCATAAGTTT-AATTGT     92
+
+ATCOPIA94        249 ttatttctttgcatttttatatacaattatgaaaacaaaacaaa----ta    294
+                     ..||||.|||||||||||||.|||||.|.|||||||||||||||    |.
+AT4TE10565        93 CAATTTATTTGCATTTTTATTTACAACTCTGAAAACAAAACAAACAACTT    142
+
+ATCOPIA94        295 tcatttatgctttacataaaaacgagtctcacaaatctttagagcatcag    344
+                     |..|||.||.||||..|||.|||.||||..|.||.||||||||..||.|.
+AT4TE10565       143 TTTTTTTTGTTTTAGCTAAGAACAAGTCCTAAAACTCTTTAGAATATTAA    192
+
+ATCOPIA94        345 acgtg    349
+                     .|.||
+AT4TE10565       193 CCATG    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT4TE16350
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 283
+# Identity:     197/283 (69.6%)
+# Similarity:   197/283 (69.6%)
+# Gaps:          27/283 ( 9.5%)
+# Score: 621.5
+# 
+#
+#=======================================
+
+ATCOPIA94        166 gaatt-tctgttttgttgttt----cattctttattgatctctgaat-ta    209
+                     ||||| |||||||||||..||    .|.|||||||  .|.|.|.||| .|
+AT4TE16350         1 GAATTCTCTGTTTTGTTTATTTTGCTAGTCTTTAT--CTTTTTAAATACA     48
+
+ATCOPIA94        210 ctgtatgacccagtgtttttaattcgtagtttaaatcg-tttatttcttt    258
+                     || ||.| ||||.|||.||||||.|.||..||.||||| |||||||.|||
+AT4TE16350        49 CT-TACG-CCCAATGTCTTTAATCCATAACTTTAATCGTTTTATTTATTT     96
+
+ATCOPIA94        259 gcatttttatatacaattatgaaaacaaaacaaatatca-----tttatg    303
+                     ||||||||||.||.||.||.||||||.||||||    ||     |||| |
+AT4TE16350        97 GCATTTTTATTTATAACTAAGAAAACCAAACAA----CAACCTCTTTA-G    141
+
+ATCOPIA94        304 ctttacataaaaacgagtctcacaaatctttagagcatcagacgtggttc    353
+                     .||||..|||.||||||||||..||||.|||||||.|||   ..||||.|
+AT4TE16350       142 TTTTAGCTAAGAACGAGTCTCGAAAATGTTTAGAGTATC---TTTGGTCC    188
+
+ATCOPIA94        354 ttatgaatcgaccgcatatttattgtcttacgattaattgtatcatgtta    403
+                     ||.||.|||||.|....|||||.|..||..||.||||.|||||||.|..|
+AT4TE16350       189 TTGTGGATCGATCTTGAATTTACTACCTAGCGGTTAAGTGTATCAAGCAA    238
+
+ATCOPIA94        404 ctactccagcaattaattagtatcatatctggt    436
+                     .|||||.||||.|.|||.|.||..||   ||||
+AT4TE16350       239 TTACTCGAGCATTCAATAACTAGAAT---TGGT    268
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT4TE16470
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 282
+# Identity:     196/282 (69.5%)
+# Similarity:   196/282 (69.5%)
+# Gaps:          25/282 ( 8.9%)
+# Score: 581.0
+# 
+#
+#=======================================
+
+ATCOPIA94        150 atggtgtttaattgttgaatt-tctgttttgttgttt----cattcttta    194
+                     |||||...|.||..||||||| .||||||||||..||    .|.||||| 
+AT4TE16470         1 ATGGTTCCTTATAATTGAATTCCCTGTTTTGTTTATTTTGCTAGTCTTT-     49
+
+ATCOPIA94        195 ttgatc-tctgaattactgtatgacccagtgtttttaattcgt-agttta    242
+                        .|| |.||||.|||..||...||||.|||.||||.|.|.| ||||| 
+AT4TE16470        50 ---GTCTTTTGAAATACCCTAACGCCCAATGTCTTTACTCCATAAGTTT-     95
+
+ATCOPIA94        243 aatcgttt-atttctttgcatttttatatacaattatgaaaacaaaacaa    291
+                     |||||||| ||||.||||.||||||||.||.||.|..|||||..|||| |
+AT4TE16470        96 AATCGTTTCATTTATTTGTATTTTTATTTATAACTGAGAAAATCAAAC-A    144
+
+ATCOPIA94        292 ata---tcatttatgctttacataaaaacgagtctcacaaatctttagag    338
+                     |||   || |||| |.||||..|||.||||||||||..||||||||||||
+AT4TE16470       145 ATAACCTC-TTTA-GTTTTAGCTAAGAACGAGTCTCGGAAATCTTTAGAG    192
+
+ATCOPIA94        339 catcagacgtggttctt-atgaatcga-ccgcatatttattgtcttacga    386
+                     .|||   ..||||.||| ||| ||||| ..|.|.||.||.|..||..||.
+AT4TE16470       193 TATC---TTTGGTCCTTGATG-ATCGATGTGGAAATATACTACCTATCGG    238
+
+ATCOPIA94        387 ttaattgtatcatgttactactccagcaatta    418
+                     ||||.||||||..|..|.|||||.||||||||
+AT4TE16470       239 TTAAGTGTATCGAGCAATTACTCGAGCAATTA    270
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT5TE80550
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 180
+# Identity:     111/180 (61.7%)
+# Similarity:   111/180 (61.7%)
+# Gaps:          38/180 (21.1%)
+# Score: 326.5
+# 
+#
+#=======================================
+
+ATCOPIA94       1976 caatctttgg-agttgtggcatcaacgcttagggcatccgtctttgaaa-   2023
+                     |||||..||| |||| .|||||...||.||.||      |||.|||||| 
+AT5TE80550         1 CAATCCATGGAAGTT-AGGCATTGTCGTTTCGG------GTCCTTGAAAT     43
+
+ATCOPIA94       2024 --------------gtagtcgagtctttaccggattttgttttttctagt   2059
+                                   ||.|||||.|.|||      ||||.||.||||||| 
+AT5TE80550        44 AAAACTTTGGAGATGTTGTCGATTTTTT------TTTTTTTCTTTCTAG-     86
+
+ATCOPIA94       2060 ca-taaggatttttcgaat--aaggcgtgtgacgtttgtatccgcgctaa   2106
+                     || |||     |||.||.|  |||.|.||.||||||||||...|.||.||
+AT5TE80550        87 CAGTAA-----TTTTGATTCAAAGACATGGGACGTTTGTACTTGTGCAAA    131
+
+ATCOPIA94       2107 gcaaactagttcttcttttccgataagcaa   2136
+                     .||||||||.|.|||.|||||..|||.|||
+AT5TE80550       132 ACAAACTAGATATTCGTTTCCTTTAAACAA    161
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT5TE33320
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 287
+# Identity:     194/287 (67.6%)
+# Similarity:   194/287 (67.6%)
+# Gaps:          33/287 (11.5%)
+# Score: 561.5
+# 
+#
+#=======================================
+
+ATCOPIA94        152 ggtgtttaattgttgaatttctgttttgtt-----gtttcattctttatt    196
+                     |||||||..||||||||||    ||||.||     |||||.||..|.||.
+AT5TE33320         1 GGTGTTTGGTTGTTGAATT----TTTTATTTCATAGTTTCGTTAATCATC     46
+
+ATCOPIA94        197 gatctctgaattactgtatgacccagtgt-ttttaattc--gtagtttaa    243
+                     .||||.|||||||.|.|.||....|.||| |||||  ||  .||.|||.|
+AT5TE33320        47 AATCTTTGAATTATTTTGTGGTTTAATGTGTTTTA--TCATATAATTTTA     94
+
+ATCOPIA94        244 atcgttta-tttctttgcat--ttttatatacaattatgaaaacaaaaca    290
+                     |||||||| ||||||| |||  |||||..|..||..||.||||| .||||
+AT5TE33320        95 ATCGTTTAGTTTCTTT-CATAATTTTAATTTTAAGCATAAAAAC-TAACA    142
+
+ATCOPIA94        291 a--atatcatttatgc-tttacataaaaacgagtctcacaaatctttaga    337
+                     |  ||.|.||||.|.| ||||..|||||||||.||||.||||||||||||
+AT5TE33320       143 AACATTTAATTTGTCCGTTTAGGTAAAAACGACTCTCGCAAATCTTTAGA    192
+
+ATCOPIA94        338 gcatcagacgtggttcttatg-aatcgaccgcatatttattgtcttacga    386
+                     ..||||    |.|.| ||||| .|||.||....|||.||.|.|.||||..
+AT5TE33320       193 ATATCA----TTGAT-TTATGTGATCTACTCTGTATGTACTATTTTACAG    237
+
+ATCOPIA94        387 ttaattgtatcatg----ttactactccagcaattaa    419
+                     ||||.|.||| |.|    |.|.|||||.||||||.||
+AT5TE33320       238 TTAAGTCTAT-AAGATAATAATTACTCGAGCAATCAA    273
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT5TE32780
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 184
+# Identity:     125/184 (67.9%)
+# Similarity:   125/184 (67.9%)
+# Gaps:          26/184 (14.1%)
+# Score: 423.0
+# 
+#
+#=======================================
+
+ATCOPIA94        237 agtttaaatcgtttatttctttgcatttttatatacaattatgaaaacaa    286
+                     |||.| ||||||||||||..|||||||      ||||.||..||||||.|
+AT5TE32780         1 AGTCT-AATCGTTTATTTTCTTGCATT------TACATTTGAGAAAACCA     43
+
+ATCOPIA94        287 aacaaatatcatttatgctttacataaaaacgagtctcacaaatctttag    336
+                     ||||||.|.|.|||..||||||..|||.||||||||||..|||||.||||
+AT5TE32780        44 AACAAACACCCTTTTCGCTTTAGGTAAGAACGAGTCTCGGAAATCCTTAG     93
+
+ATCOPIA94        337 agcatcagacgtggttcttatgaatcgac--cgcatatttattgtcttac    384
+                     ||.|||   ..||||.||..||.||||||  ||||||  ||.|...||.|
+AT5TE32780        94 AGTATC---TTTGGTCCTCGTGGATCGACCTCGCATA--TACTACATTTC    138
+
+ATCOPIA94        385 gattaattgtatcatgttactactccagcaatta    418
+                     |.||||.||||            ||.||||||||
+AT5TE32780       139 GGTTAAGTGTA------------TCGAGCAATTA    160
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ATCOPIA94
+# 2: AT5TE42125
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 355
+# Identity:     237/355 (66.8%)
+# Similarity:   237/355 (66.8%)
+# Gaps:          65/355 (18.3%)
+# Score: 674.5
+# 
+#
+#=======================================
+
+ATCOPIA94         66 agttaagggatattcgattaggt----ttta-tgcaca-tactctcttgt    109
+                     ||||.||   ||.||||.|| ||    |||| ||   | ||.|.||||| 
+AT5TE42125         1 AGTTTAG---TAATCGAGTA-GTCAAATTTAGTG---ATTAATGTCTTG-     42
+
+ATCOPIA94        110 ataaataga---aggctcagcctccgttaataaacaacacattatggtgt    156
+                       |||.|||   ||.||.|| .||.|||.||...|||.|    |.|||..
+AT5TE42125        43 --AAAGAGAATTAGTCTAAG-TTCTGTTCATGTTCAAGA----ACGGTTC     85
+
+ATCOPIA94        157 ttaattgttgaatttctgttttgt----tgttt-cattctttattgatct    201
+                     .|||||||||||||.|    ||||    ||||| ||||.|||||||||||
+AT5TE42125        86 GTAATTGTTGAATTCC----TTGTCTCATGTTTCCATTTTTTATTGATCT    131
+
+ATCOPIA94        202 ctgaattac-----tgtatgacccagtgtttttaattcgt---agtttaa    243
+                     |||||.|||     ||     ||.|.|||.|||||.||.|   || ||||
+AT5TE42125       132 CTGAAATACCCAAATG-----CCTAATGTCTTTAAATCTTGAAAG-TTAA    175
+
+ATCOPIA94        244 atcgttt-atttctttgcattttta-tatacaattatgaaaac-aaaaca    290
+                     |.||||| ||||.||||||||.||| |.||||| |.||||||| .|||||
+AT5TE42125       176 ACCGTTTAATTTATTTGCATTCTTATTTTACAA-TCTGAAAACTCAAACA    224
+
+ATCOPIA94        291 aa--tatcatttatgctttacataaaaacgagtctcacaaatctttagag    338
+                     ||  .||| |.|..||||||..|||.||||||||||..|||||.||||||
+AT5TE42125       225 AAACAATC-TCTTCGCTTTAGCTAAGAACGAGTCTCGGAAATCCTTAGAG    273
+
+ATCOPIA94        339 catcagacgtggttcttatgaatcgac--cgcatatt-tattgtctt-ac    384
+                     .||   ...||||.|||.||.|||.||  ||.||||| ||    ||| ||
+AT5TE42125       274 TAT---TTTTGGTCCTTGTGGATCAACATCGAATATTCTA----CTTAAC    316
+
+ATCOPIA94        385 gatta    389
+                     |.|||
+AT5TE42125       317 GGTTA    321
+
+
+#---------------------------------------
+#---------------------------------------

@@ -401,6 +401,7 @@ Création d'un script pour blast sur les fichiers d'id : blast_ids.sh
 # On supprime le '>' de chaque ligne
 # On envoie le résultat à la boucle while
 # On fait un blast en prenant chacune des lignes en -entry 
+
 sed 's/>//' $1 | while IFS= read -r line; do
 	blastdbcmd -db repbase.fasta -entry "$line" 
 done
@@ -408,5 +409,70 @@ done
 ATTENTION : le script ne fonctionne pas : probablement que la base de données n'est pas la bonne : 
 peut-être utiliser une base de données créée à partir de TAIR10_TE.fas
 
+
+**************************
+*  Jeudi 11 avril 2024   *
+**************************
+
+Correction du script : 
+
+Changement du fichier TAIR10 pour faire une base de données avec : 
+$ sed "s/|/ /g" TAIR10_TE.fas > TAIR10_TE_modified.fas
+
+Création de la base de données :
+$ makeblastdb -in db/TAIR10_TE/TAIR10_TE_modified.fas -parse_seqids -dbtype nucl
+
+Modification du fichier de script : 
+sed 's/>//' $1 | while IFS= read -r line; do
+	blastdbcmd -db db/TAIR10_TE/TAIR10_TE_modified.fas -entry "$line" 
+done
+
+Accord des droits d'exécution : 
+chmod +x blast_ids.sh
+
+Réorganisation des fichiers du projet : 
+Création d'un dossier db dans data, contenant les différentes bases de données créées. 
+
+Application du script :
+$ ./blast_ids.sh ids/id_VANDAL2.fasta > results/VANDAL2.fasta
+$ ./blast_ids.sh ids/id_ATLINE1A.fasta > results/ATLINE1A.fasta
+$ ./blast_ids.sh ids/id_ATCOPIA94.fasta > results/ATCOPIA94.fasta
+
+Réorganisation : 
+Division du fichier seq_reference.fasta en 3 sous-fichiers dans le dossier seq_reference/
+$ ls
+ATCOPIA94.fasta  ATLINE1A.fasta  VANDAL2.fasta
+
+
+Création de bases de données à partir de nos résultats (que j'ai copiés dans mon dossier db):
+
+$ pwd
+/home/alois/Bureau/Projet-Bio_Info/Projet/Elements_Transposables/data/db/ids
+$ ls
+ATCOPIA94  ATLINE1A  VANDAL2
+
+
+$ makeblastdb -in db/ids/VANDAL2/VANDAL2.fasta -parse_seqids -dbtype nucl 
+$ makeblastdb -in db/ids/ATLINE1A/ATLINE1A.fasta -parse_seqids -dbtype nucl 
+$ makeblastdb -in db/ids/ATCOPIA94/ATCOPIA94.fasta -parse_seqids -dbtype nucl
+
+On fait un water sur notre séquence de référence et les sorties de notre script
+$ water seq_reference/VANDAL2.fasta results/VANDAL2.fasta
+$ water seq_reference/ATLINE1A.fasta results/ATLINE1A.fasta
+$ water seq_reference/ATCOPIA94.fasta results/ATCOPIA94.fasta
+
+On fait un blastn sur notre séquence de référence et la base de données néo-formée :
+
+$ blastn -query seq_reference/ATCOPIA94.fasta -db db/ids/ATCOPIA94/ATCOPIA94.fasta > results/blastn_ATCOPIA94.fasta
+$ blastn -query seq_reference/ATLINE1A.fasta -db db/ids/ATLINE1A/ATLINE1A.fasta > results/blastn_ATLINE1A.fasta
+$ blastn -query seq_reference/VANDAL2.fasta -db db/ids/VANDAL2/VANDAL2.fasta > results/blastn_VANDAL2.fasta
+
+Réorganisation du dossier résultat : 
+
+$ pwd
+/home/alois/Bureau/Projet-Bio_Info/Projet/Elements_Transposables/data/results
+
+$ ls
+blastn  seqs  water 
 
 
