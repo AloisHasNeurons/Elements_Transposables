@@ -476,3 +476,32 @@ $ ls
 blastn  seqs  water 
 
 
+*****************************
+*  Vendredi 12 avril 2024   *
+*****************************
+
+Conception de la base de données à l'aide du modèle entité/association
+
+
+Changement de l'output format des blasts : 
+$ blastn -query seq_reference/ATCOPIA94.fasta -db db/ids/ATCOPIA94/ATCOPIA94.fasta -outfmt 7 > results/blastn/blastn_ATCOPIA94.fasta
+$ blastn -query seq_reference/ATLINE1A.fasta -db db/ids/ATLINE1A/ATLINE1A.fasta -outfmt 7 > results/blastn/blastn_ATLINE1A.fasta
+$ blastn -query seq_reference/VANDAL2.fasta -db db/ids/VANDAL2/VANDAL2.fasta -outfmt 7 > results/blastn/blastn_VANDAL2.fasta
+
+*****************************
+*  Vendredi 26 avril 2024   *
+*****************************
+
+Galères avec postgresql
+
+(désinstallation)
+(réinstallation)
+(suppression des anciens fichiers)
+
+on repart sur des bases solides : 
+
+sudo mkdir -p /home/alois/Bureau/Projet-Bio_Info/Projet/Elements_Transposables/data/db_postgre
+
+sudo su - postgres -c "initdb --locale $LANG -E UTF8 -D '/home/alois/Bureau/Projet-Bio_Info/Projet/Elements_Transposables/data/db_postgre'"
+
+
